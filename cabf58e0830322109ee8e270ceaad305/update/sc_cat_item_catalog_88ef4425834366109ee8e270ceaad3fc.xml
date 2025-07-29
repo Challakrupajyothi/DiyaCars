@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
     <sc_cat_item_catalog action="INSERT_OR_UPDATE">
-        <sc_cat_item display_value="">f1af0ca1834366109ee8e270ceaad3eb</sc_cat_item>
+        <sc_cat_item display_value="TeslaModel3-Hatchback2025">f1af0ca1834366109ee8e270ceaad3eb</sc_cat_item>
         <sc_catalog display_value="Diya Cars">5f85d699838726109ee8e270ceaad3a9</sc_catalog>
         <sys_class_name>sc_cat_item_catalog</sys_class_name>
         <sys_created_by>admin</sys_created_by>
