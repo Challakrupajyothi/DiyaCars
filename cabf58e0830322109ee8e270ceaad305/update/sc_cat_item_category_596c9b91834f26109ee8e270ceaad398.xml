@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Mercedes-Benz-3 Class 2020 model">53db5751834f26109ee8e270ceaad36c</sc_cat_item>
+        <sc_category display_value="Mercedes-Benz">513393d1830f26109ee8e270ceaad31a</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>samba</sys_created_by>
+        <sys_created_on>2025-07-29 13:13:41</sys_created_on>
+        <sys_id>596c9b91834f26109ee8e270ceaad398</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Mercedes-Benz.Mercedes-Benz-3 Class 2020 model</sys_name>
+        <sys_package display_value="Diya_cars" source="x_1811084_diya_c_0">cabf58e0830322109ee8e270ceaad305</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Diya_cars">cabf58e0830322109ee8e270ceaad305</sys_scope>
+        <sys_update_name>sc_cat_item_category_596c9b91834f26109ee8e270ceaad398</sys_update_name>
+        <sys_updated_by>samba</sys_updated_by>
+        <sys_updated_on>2025-07-29 13:13:41</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>
