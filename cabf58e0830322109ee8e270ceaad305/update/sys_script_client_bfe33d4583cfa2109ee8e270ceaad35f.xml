@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>password</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+    var password = g_form.getValue('password');
+    var confirmPassword = g_form.getValue('confirm_password');
+	var email=g_form.getValue("email");
+	if(!(email.endsWith("@gmail.com")))
+	{
+		g_form.showFieldMsg("email","Enter correct mail","error");
+		return false;
+	}
+
+   
+    if (password.length < 8) {
+        g_form.showFieldMsg('password', 'Password must be at least 8 characters long.', 'error');
+        return false;
+    }
+
+   
+    if (!/[A-Z]/.test(password)) {
+        g_form.showFieldMsg('password', 'Password must contain at least one uppercase letter.', 'error');
+        return false;
+    }
+
+   
+    if (!/[a-z]/.test(password)) {
+        g_form.showFieldMsg('password', 'Password must contain at least one lowercase letter.', 'error');
+        return false;
+    }
+
+    
+    if (!/[0-9]/.test(password)) {
+        g_form.showFieldMsg('password', 'Password must contain at least one number.', 'error');
+        return false;
+    }
+
+    
+    if (!/[!@#\$%\^\&*\)\(+=._-]/.test(password)) {
+        g_form.showFieldMsg('password', 'Password must contain at least one special character.', 'error');
+        return false;
+    }
+
+    
+    if (password !== confirmPassword) {
+        g_form.showFieldMsg('confirm_password', 'Passwords do not match.', 'error');
+        return false;
+    }
+	
+
+    return true; 
+}
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-28 10:59:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bfe33d4583cfa2109ee8e270ceaad35f</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>password</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Diya_cars" source="x_1811084_diya_c_0">cabf58e0830322109ee8e270ceaad305</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Diya_cars">cabf58e0830322109ee8e270ceaad305</sys_scope>
+        <sys_update_name>sys_script_client_bfe33d4583cfa2109ee8e270ceaad35f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-05 08:30:48</sys_updated_on>
+        <table>x_1811084_diya_c_0_customer_profile</table>
+        <type>onSubmit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

@@ -2,7 +2,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="TeslaModel3-SUV2023">2ce2d469834366109ee8e270ceaad35a</cat_item>
+        <cat_item display_value="TeslaModel3-SUV2024">2ce2d469834366109ee8e270ceaad35a</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -10,7 +10,7 @@
         <conversational_label/>
         <create_roles/>
         <default_html_value/>
-        <default_value/>
+        <default_value>206</default_value>
         <delete_roles/>
         <delivery_plan/>
         <description/>
@@ -21,7 +21,7 @@
         <dynamic_value_dot_walk_path/>
         <dynamic_value_field/>
         <enable_also_request_for>false</enable_also_request_for>
-        <example_text/>
+        <example_text>206</example_text>
         <field/>
         <global>false</global>
         <help_tag>More information</help_tag>
@@ -50,7 +50,7 @@
         <pricing_implications>false</pricing_implications>
         <published_ref/>
         <question_text>HorsePower</question_text>
-        <read_only>false</read_only>
+        <read_only>true</read_only>
         <read_roles/>
         <read_script/>
         <rec_lookup_price/>
@@ -79,14 +79,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-29 17:18:07</sys_created_on>
         <sys_id>38445ce9834366109ee8e270ceaad344</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>HorsePower</sys_name>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Diya_cars">cabf58e0830322109ee8e270ceaad305</sys_scope>
         <sys_update_name>item_option_new_38445ce9834366109ee8e270ceaad344</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-29 17:21:26</sys_updated_on>
+        <sys_updated_on>2025-07-31 11:54:33</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>

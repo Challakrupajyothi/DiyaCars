@@ -38,7 +38,7 @@
         <lookup_value/>
         <macro/>
         <macroponent/>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
@@ -79,14 +79,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-29 17:05:21</sys_created_on>
         <sys_id>61f098a5834366109ee8e270ceaad3f9</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>AvaliableColors</sys_name>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Diya_cars">cabf58e0830322109ee8e270ceaad305</sys_scope>
         <sys_update_name>item_option_new_61f098a5834366109ee8e270ceaad3f9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-29 17:06:45</sys_updated_on>
+        <sys_updated_on>2025-07-31 11:49:22</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>

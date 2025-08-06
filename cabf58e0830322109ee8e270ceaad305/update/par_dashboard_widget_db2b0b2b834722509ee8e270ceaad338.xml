@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">2ce283a28307ea109ee8e270ceaad39b</canvas>
+        <component display_value="Semi donut">3809c6583b8dd540a0bf735ed493bae2</component>
+        <component_props>{"applyDateRange":false,"bareBorder":false,"colorConfig":{"type":"default"},"configVersion":"23.0.0-ci-SNAPSHOT","dataLabelsType":"value","dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Approval","sourceType":"table","tableOrViewName":"sysapproval_approver","filterQuery":"source_table=sc_request^state=requested^ORstate=approved^ORstate=rejected","reportSourceSysId":null,"preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGVzeXNhcHByb3ZhbF9hcHByb3ZlcjE3NTQzODcyMDk2NDY1NDMzNDgyNC4zMDU3MzIwOA==","dataCategories":["trend","group","simple"]}],"dateFormat":"default","emptyStateHeading":"No data available.","emptyStateIllustration":"add-data","enableCustomEmptyState":false,"enableDrilldown":true,"enableRealTimeUpdate":false,"filterConfigurations":"@state.parFilters","followFilters":true,"groupBy":[{"groupBy":[{"dataSource":"dGFibGVzeXNhcHByb3ZhbF9hcHByb3ZlcjE3NTQzODcyMDk2NDY1NDMzNDgyNC4zMDU3MzIwOA==","groupByField":"state","isChoice":true,"isPaBucket":false,"isRange":false}],"maxNumberOfGroups":12,"numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":true,"disableRanges":false}],"headerTitle":"Catalog request status","hideMatrixAggregate":false,"legendExpandToFit":false,"legendHorizontalAlignment":"center","metrics":[{"aggregateFunction":"COUNT","axisId":"primary","dataSource":"dGFibGVzeXNhcHByb3ZhbF9hcHByb3ZlcjE3NTQzODcyMDk2NDY1NDMzNDgyNC4zMDU3MzIwOA==","id":"ZEdGaWJHVnplWE5oY0hCeWIzWmhiRjloY0hCeWIzWmxjakUzTlRRek9EY3lNRGsyTkRZMU5ETXpORGd5TkM0ek1EVTNNekl3T0E9PTE3NTQzODcyMDk2NDY0NDc4MTY4Ni41ODA1ODYxMQ==","numberFormat":{"customFormat":true,"abbreviationEnabled":true,"numberInTooltipsEnabled":true},"dateFormat":{"customFormat":false},"stringFormat":{"customFormat":false}}],"newReporting":false,"numberOfPeriods":2,"period":"M","registerOrientation":"horizontal","registerPosition":"bottom","showAbsolutePeriod":false,"showBorder":true,"showChange":false,"showChangeFrom":"previous","showChangePercentage":false,"showComment":false,"showConfidenceBand":false,"showDataLabels":true,"showDataPassthrough":false,"showFilterIcon":true,"showFirstGroupAggregate":false,"showForecast":false,"showForecastRange":false,"showGapPercentage":false,"showHeader":true,"showHeaderSeparator":true,"showMaximumRange":false,"showMetricLabel":false,"showRegister":true,"showRegisterOnSameLine":false,"showRegisterPercentage":true,"showRegisterValue":true,"showSecondGroupAggregate":false,"showSparkline":false,"showSubAggregate":false,"showTarget":false,"showThreshold":false,"showTotalAggregate":false,"showTrend":false,"sortBy":"value","sortByOrder":"desc","telemetry":"null","truncationType":"start","wrapTitle":true,"showDataTable":false,"componentId":"dg2aqxv1","id":"showDataLabels","value":true,"noDebounce":true,"propLabel":"Show data labels","filterPerMetric":[],"showDateRangeByDefault":false,"allowChangeDateRange":false,"scoreType":null,"allowAdditionalGroupByPerMetric":false}</component_props>
+        <h>26</h>
+        <name>Catalog request status</name>
+        <stored_component display_value="Catalog request status">753a4c1fab126b578b2c44c69fb3d08d</stored_component>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>samba</sys_created_by>
+        <sys_created_on>2025-08-05 11:44:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>db2b0b2b834722509ee8e270ceaad338</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Catalog request status</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Diya_cars" source="x_1811084_diya_c_0">cabf58e0830322109ee8e270ceaad305</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Diya_cars">cabf58e0830322109ee8e270ceaad305</sys_scope>
+        <sys_update_name>par_dashboard_widget_db2b0b2b834722509ee8e270ceaad338</sys_update_name>
+        <sys_updated_by>samba</sys_updated_by>
+        <sys_updated_on>2025-08-05 11:44:47</sys_updated_on>
+        <visualization/>
+        <w>23</w>
+        <widget_props/>
+        <x>23</x>
+        <y>0</y>
+    </par_dashboard_widget>
+</record_update>

@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>standard</category>
+        <client_script><![CDATA[function($scope, $http) {
+  $scope.c = this;
+
+  $scope.c.login = function() {
+    $http.post('/api/x_123456_custom_app/custom_auth', {
+      username: $scope.data.username,
+      password: $scope.data.password
+    }).then(function(response) {
+      if (response.data.result.success) {
+        window.location.href = "/sp";
+      } else {
+        $scope.data.error = "Invalid credentials!";
+      }
+    });
+  };
+}
+]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.sp-login-widget { &#13;
+  &#13;
+  .panel-body {&#13;
+    padding: 15px 15px 10px;&#13;
+  }&#13;
+  &#13;
+  .form-control,&#13;
+  label[for="username"],&#13;
+  label[for="password"] {&#13;
+    color: black;&#13;
+  }&#13;
+  &#13;
+  .btn {&#13;
+    font-weight: 600;&#13;
+    font-size: 2.0rem;&#13;
+    background-color: $login-btn-bg;&#13;
+    border-color: $login-btn-border;&#13;
+  }&#13;
+  &#13;
+  .list-group {&#13;
+    margin-bottom: 12px;&#13;
+  }&#13;
+  &#13;
+  .login-button-old {&#13;
+    margin-top: 7px;&#13;
+  }&#13;
+  &#13;
+  .login-alert {&#13;
+    margin-left: 0px;&#13;
+    margin-right: 0px;&#13;
+  }&#13;
+&#13;
+}&#13;
+//STRY50033370: Forgot Password link in the login widget&#13;
+//Start -- login widget advanced view&#13;
+.sp-login-widget.advanced {  &#13;
+  .panel-title {&#13;
+    font-size: 25px;&#13;
+  }&#13;
+  &#13;
+  .panel-default &gt; .panel-heading {&#13;
+    background-color: $panel-bg; &#13;
+    border: 0px;    &#13;
+  }&#13;
+  &#13;
+  .panel-body {&#13;
+    padding: 0px 0px 10px;&#13;
+  }&#13;
+&#13;
+  [placeholder]::-webkit-input-placeholder { &#13;
+    transition: opacity 0.01s 0.01s ease !important; &#13;
+    opacity: 0 !important; &#13;
+  }&#13;
+&#13;
+  .form-signin {&#13;
+    .list-group-item { &#13;
+      border: 0px;&#13;
+    }&#13;
+    &#13;
+    .login-alert {&#13;
+    margin-left: 15px;&#13;
+    margin-right: 15px;&#13;
+    }&#13;
+    &#13;
+    .btn {&#13;
+      font-weight: 400 !important;&#13;
+      border-color: $brand-primary;&#13;
+      background-color: $brand-primary;&#13;
+      border-radius: 2px;&#13;
+    }&#13;
+&#13;
+    .forgot-pwd-div {&#13;
+      padding-right: 15px;&#13;
+      padding-left: 15px;&#13;
+      .forgot-text {&#13;
+        font-size: 16px;	&#13;
+        line-height: 20px;&#13;
+        padding-top: 8px;&#13;
+      }&#13;
+      &#13;
+      .btn {&#13;
+        line-height: 16px;&#13;
+        font-size: 14px;&#13;
+        margin-top: 0px;&#13;
+      }&#13;
+      &#13;
+    }&#13;
+    &#13;
+    .submit-btn {&#13;
+      padding-right: 15px;&#13;
+      padding-left: 15px;&#13;
+    }&#13;
+    &#13;
+    .input-group-advanced {&#13;
+      margin-top: 10px;&#13;
+    }&#13;
+&#13;
+    .input-advanced {&#13;
+      border: 1px solid $btn-default-border !important;&#13;
+      border-radius: 3px !important;&#13;
+      background-color: $panel-bg !important;&#13;
+    }&#13;
+    &#13;
+    .checkbox {&#13;
+      padding-left: 15px !important; &#13;
+    }&#13;
+   &#13;
+    .label-advanced {&#13;
+      position: relative;&#13;
+      width: 100%;&#13;
+      padding: 0;&#13;
+      overflow: visible;&#13;
+      border: 0;&#13;
+      height: 19px;&#13;
+      color: $text-color;&#13;
+      font-size: 16px;&#13;
+      line-height: 19px;&#13;
+    }&#13;
+    &#13;
+    .mask_btn {&#13;
+      background-color: #fcfcfc;&#13;
+      border-color: #939393;&#13;
+      border-left : 0px;&#13;
+      width:fit-content;&#13;
+      border-top-left-radius: 0px !important;&#13;
+      border-bottom-left-radius: 0px !important;&#13;
+      font-size: 1.4rem !important;&#13;
+      position: relative;&#13;
+&#13;
+	&amp;.active {&#13;
+		&amp;:after {&#13;
+          	background-color: #2e2e2e;&#13;
+			content: "";&#13;
+			height: 16px;&#13;
+			left: 50%;&#13;
+	    		margin-top: -8px;&#13;
+			margin-inline-start: -1px;&#13;
+			margin-block-start: -8px;&#13;
+			position: absolute;&#13;
+			top: 50%;&#13;
+			transform: rotate(45deg);&#13;
+			width: 1px;&#13;
+			}&#13;
+		}&#13;
+    }&#13;
+&#13;
+    &#13;
+    .loginWithBtn {&#13;
+      padding: 0 1.5rem;&#13;
+    }&#13;
+    &#13;
+  }&#13;
+&#13;
+}&#13;
+//End -- login widget advanced view&#13;
+.sp-self-registration {&#13;
+  text-align: center;&#13;
+}&#13;
+.sp-login-widget {&#13;
+.bar {&#13;
+  margin: 12px 0;&#13;
+  span {&#13;
+    position: relative;&#13;
+    display: block;&#13;
+    text-align: center;&#13;
+&#13;
+    &amp;:before, &amp;:after {&#13;
+      content: '';&#13;
+      position: absolute;&#13;
+      width: calc(50% - 24px);&#13;
+      height: 1px;&#13;
+      background-color: #b3bac7;&#13;
+      top: 8px;&#13;
+    }&#13;
+    &amp;:before {&#13;
+      right: 0;&#13;
+    }&#13;
+    &amp;:after {&#13;
+      left: 0;&#13;
+    }&#13;
+  }&#13;
+}&#13;
+button.cert, a.idp {&#13;
+  background-color: #fff !important;&#13;
+  border-color: #ccc !important;&#13;
+  width: 100%;&#13;
+  margin-bottom: 10px;&#13;
+&#13;
+  &amp;:hover {&#13;
+    border-color: #adadad;&#13;
+    background-color: #e6e6e6;&#13;
+  }&#13;
+  img {&#13;
+    height: 20px;&#13;
+    width: 20px;&#13;
+    margin-bottom: 3px;&#13;
+    margin-right: 9px;&#13;
+  }&#13;
+}&#13;
+  img.eye-icon {&#13;
+    content:url("eye.svg");&#13;
+    cursor: pointer;&#13;
+    width:18px;&#13;
+    height:18px;&#13;
+    display: flex;&#13;
+    justify-content:center;&#13;
+    align-items:center;&#13;
+    float:left;&#13;
+  }&#13;
+  &#13;
+  img.eye-icon.slashed {&#13;
+    content:url("eye-slash.svg");&#13;
+  }&#13;
+  &#13;
+  .password-group {&#13;
+    display:flex;&#13;
+    flex-direction:row;&#13;
+  }&#13;
+ &#13;
+  .mask_btn {&#13;
+      background-color: #fcfcfc;&#13;
+      border-color: #939393;&#13;
+      border-left : 0px;&#13;
+      width:fit-content;&#13;
+      border-top-left-radius: 0px !important;&#13;
+      border-bottom-left-radius: 0px !important;&#13;
+      font-size: 1.4rem !important;&#13;
+      position: relative;&#13;
+&#13;
+	&amp;.active {&#13;
+		&amp;:after {&#13;
+          	background-color: #2e2e2e;&#13;
+			content: "";&#13;
+			height: 16px;&#13;
+			left: 50%;&#13;
+	    		margin-top: -8px;&#13;
+			margin-inline-start: -1px;&#13;
+			margin-block-start: -8px;&#13;
+			position: absolute;&#13;
+			top: 50%;&#13;
+			transform: rotate(45deg);&#13;
+			width: 1px;&#13;
+			}&#13;
+		}&#13;
+    }&#13;
+  input::-ms-reveal,&#13;
+    input::-ms-clear {&#13;
+      display: none;&#13;
+  }&#13;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Diyacars login</name>
+        <option_schema>[{"name":"show_panel","section":"Presentation","default_value":"true","label":"Show Panel","type":"boolean"},{"name":"use_advanced","section":"Presentation","default_value":"false","label":"Use Advanced View","type":"boolean"}]</option_schema>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function process(request, response) {
+  var body = request.body.data;
+  var user = new GlideRecord('sys_user');
+  user.addQuery('user_name', body.username);
+  user.query();
+
+  if (user.next()) {
+    // Use built-in authentication check
+    var auth = new GlideBasicAuthentication();
+    var result = auth.authenticate(body.username, body.password);
+    if (result) {
+      response.setBody({ success: true });
+      return;
+    }
+  }
+  response.setBody({ success: false });
+})(request, response);
+]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-02 08:45:30</sys_created_on>
+        <sys_id>4865c3e28307ea109ee8e270ceaad34b</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Diyacars login</sys_name>
+        <sys_package display_value="Diya_cars" source="x_1811084_diya_c_0">cabf58e0830322109ee8e270ceaad305</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Diya_cars">cabf58e0830322109ee8e270ceaad305</sys_scope>
+        <sys_update_name>sp_widget_4865c3e28307ea109ee8e270ceaad34b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-02 08:54:36</sys_updated_on>
+        <template><![CDATA[<div class="custom-login">
+  <h2>Login</h2>
+  <form ng-submit="c.login()">
+    <div>
+      <label>Username:</label>
+      <input type="text" ng-model="c.data.username" required />
+    </div>
+    <div>
+      <label>Password:</label>
+      <input type="password" ng-model="c.data.password" required />
+    </div>
+    <button type="submit">Login</button>
+    <p style="color:red;" ng-if="c.data.errorMessage">{{ c.data.errorMessage }}</p>
+  </form>
+</div>
+]]></template>
+    </sp_widget>
+</record_update>
