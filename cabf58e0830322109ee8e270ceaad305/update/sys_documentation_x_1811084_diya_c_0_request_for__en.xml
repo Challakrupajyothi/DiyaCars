@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="Request_For" language="en" table="x_1811084_diya_c_0_request_for">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Request_For</label>
+            <language>en</language>
+            <name>x_1811084_diya_c_0_request_for</name>
+            <plural>Request_Fors</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-16 12:04:56</sys_created_on>
+            <sys_id>44926b8983c032109ee8e270ceaad39e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Request_For</sys_name>
+            <sys_package display_value="Diya_cars" source="x_1811084_diya_c_0">cabf58e0830322109ee8e270ceaad305</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Diya_cars">cabf58e0830322109ee8e270ceaad305</sys_scope>
+            <sys_update_name>sys_documentation_x_1811084_diya_c_0_request_for__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-16 12:04:56</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

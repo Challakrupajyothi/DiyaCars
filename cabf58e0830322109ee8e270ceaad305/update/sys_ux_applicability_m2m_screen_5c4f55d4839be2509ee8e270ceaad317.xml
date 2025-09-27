@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_screen">
+    <sys_ux_applicability_m2m_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability display_value="Admin">d4e6a3160f223010e28740c1df767e0c</applicability>
+        <order>0</order>
+        <screen display_value="status">73e181d883d7e2509ee8e270ceaad308</screen>
+        <sys_class_name>sys_ux_applicability_m2m_screen</sys_class_name>
+        <sys_created_by>samba</sys_created_by>
+        <sys_created_on>2025-08-07 11:48:42</sys_created_on>
+        <sys_id>5c4f55d4839be2509ee8e270ceaad317</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Diya_cars" source="x_1811084_diya_c_0">cabf58e0830322109ee8e270ceaad305</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Diya_cars">cabf58e0830322109ee8e270ceaad305</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_screen_5c4f55d4839be2509ee8e270ceaad317</sys_update_name>
+        <sys_updated_by>samba</sys_updated_by>
+        <sys_updated_on>2025-08-07 11:48:42</sys_updated_on>
+    </sys_ux_applicability_m2m_screen>
+</record_update>
