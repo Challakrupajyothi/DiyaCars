@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_upgrade_plan_item">
+    <sys_upgrade_plan_item action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <additional_parameters/>
+        <auto_generated>false</auto_generated>
+        <customization_version/>
+        <id>199e106697495110269b728c1253af3d</id>
+        <last_published/>
+        <last_refreshed/>
+        <name>Consumer Service Portal</name>
+        <notes/>
+        <scope>sn_csp_portal</scope>
+        <source/>
+        <state/>
+        <status_message/>
+        <sys_class_name>sys_upgrade_plan_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-29 10:26:45</sys_created_on>
+        <sys_id>20c8ce9583d432109ee8e270ceaad346</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Consumer Service Portal</sys_name>
+        <sys_package display_value="Diya_cars" source="x_1811084_diya_c_0">cabf58e0830322109ee8e270ceaad305</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Diya_cars">cabf58e0830322109ee8e270ceaad305</sys_scope>
+        <sys_update_name>sys_upgrade_plan_item_20c8ce9583d432109ee8e270ceaad346</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-29 10:26:45</sys_updated_on>
+        <type>application</type>
+        <upgrade_plan/>
+        <version>23.11.0</version>
+    </sys_upgrade_plan_item>
+</record_update>
