@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category">
+    <sc_category action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <entitlement_script/>
+        <header_icon/>
+        <homepage_image/>
+        <homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer>
+        <icon/>
+        <image/>
+        <location/>
+        <mobile_hide_description>false</mobile_hide_description>
+        <mobile_picture/>
+        <mobile_subcategory_render_type>list</mobile_subcategory_render_type>
+        <module/>
+        <order>0</order>
+        <parent/>
+        <roles/>
+        <sc_catalog display_value="Diya Cars">5f85d699838726109ee8e270ceaad3a9</sc_catalog>
+        <sys_class_name>sc_category</sys_class_name>
+        <sys_created_by>samba</sys_created_by>
+        <sys_created_on>2025-07-30 07:55:56</sys_created_on>
+        <sys_id>e02d17298343a6109ee8e270ceaad30f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Honda Cars</sys_name>
+        <sys_package display_value="Diya_cars" source="x_1811084_diya_c_0">cabf58e0830322109ee8e270ceaad305</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Diya_cars">cabf58e0830322109ee8e270ceaad305</sys_scope>
+        <sys_update_name>sc_category_e02d17298343a6109ee8e270ceaad30f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-04 06:19:15</sys_updated_on>
+        <title>Honda Cars</title>
+    </sc_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=e02d17298343a6109ee8e270ceaad30f"/>
+</record_update>

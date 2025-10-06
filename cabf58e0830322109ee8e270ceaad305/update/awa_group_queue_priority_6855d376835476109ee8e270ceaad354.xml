@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="awa_group_queue_priority">
+    <awa_group_queue_priority action="INSERT_OR_UPDATE">
+        <group display_value="Get your dream car" name="Get your dream car">8bf19732835476109ee8e270ceaad3bd</group>
+        <order>100</order>
+        <queue display_value="GetYourdreamcar">15d3dfb2835476109ee8e270ceaad38c</queue>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-04 07:52:08</sys_created_on>
+        <sys_id>6855d376835476109ee8e270ceaad354</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-04 07:52:08</sys_updated_on>
+    </awa_group_queue_priority>
+</record_update>

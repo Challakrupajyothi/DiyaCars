@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="awa_eligibility_pool">
+    <awa_eligibility_pool action="INSERT_OR_UPDATE">
+        <agent_assignment_rule display_value="cars">e7c08123835032109ee8e270ceaad308</agent_assignment_rule>
+        <display_name>Get your dream car : cars</display_name>
+        <eligibility>1970-01-01 00:00:00</eligibility>
+        <groups name="Get your dream car">8bf19732835476109ee8e270ceaad3bd</groups>
+        <queue display_value="cars">1f7089ef831032109ee8e270ceaad3b6</queue>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-06 04:59:17</sys_created_on>
+        <sys_id>1dc00123835032109ee8e270ceaad3f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-06 04:59:17</sys_updated_on>
+    </awa_eligibility_pool>
+</record_update>
