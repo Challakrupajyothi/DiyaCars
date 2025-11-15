@@ -4,6 +4,7 @@
         <app_config display_value="customer dashboard">7a70015883d7e2509ee8e270ceaad397</app_config>
         <description/>
         <disable_auto_reflow>true</disable_auto_reflow>
+        <disable_interoperable>false</disable_interoperable>
         <event_mappings/>
         <macroponent display_value="status">23e181d883d7e2509ee8e270ceaad302</macroponent>
         <macroponent_config>{

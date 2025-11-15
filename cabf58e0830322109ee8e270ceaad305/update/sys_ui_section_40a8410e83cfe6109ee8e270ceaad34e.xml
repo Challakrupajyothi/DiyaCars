@@ -2,6 +2,7 @@
     <sys_ui_section caption="diya cars 2" section_id="40a8410e83cfe6109ee8e270ceaad34e" sys_domain="global" table="sc_cat_item" version="3" view="diya_cars">
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
+            <name/>
             <sys_created_by>samba</sys_created_by>
             <sys_created_on>2025-07-31 10:24:36</sys_created_on>
             <sys_id>48e881ca83cfe6109ee8e270ceaad34e</sys_id>

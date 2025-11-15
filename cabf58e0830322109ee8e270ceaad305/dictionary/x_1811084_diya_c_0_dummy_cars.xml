@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5018765d834b26109ee8e270ceaad3a0" extends="sys_import_set_row" label="dummy cars" max_length="40" name="x_1811084_diya_c_0_dummy_cars" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Front Suspension" label="Front Suspension" max_length="40" name="u_front_suspension" type="string"/>
+        <element attributes="import_attribute_name=Curb Weight (kg)" label="Curb Weight (kg)" max_length="40" name="u_curb_weight__kg_" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Adaptive Cruise Control" label="Adaptive Cruise Control" max_length="40" name="u_adaptive_cruise_control" type="string"/>
+        <element attributes="import_attribute_name=Speaker Count" label="Speaker Count" max_length="40" name="u_speaker_count" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Headlight Type" label="Headlight Type" max_length="40" name="u_headlight_type" type="string"/>
+        <element attributes="import_attribute_name=Price (EUR)" label="Price (EUR)" max_length="15" name="u_price__eur_" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Infotainment System" label="Infotainment System" max_length="40" name="u_infotainment_system" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=ABS" label="ABS" max_length="40" name="u_abs" type="string"/>
+        <element attributes="import_attribute_name=Height (m)" label="Height (m)" max_length="15" name="u_height__m_" type="decimal"/>
+        <element attributes="import_attribute_name=Airbags Count" label="Airbags Count" max_length="40" name="u_airbags_count" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Model" label="Model" max_length="40" name="u_model" type="string"/>
+        <element attributes="import_attribute_name=Torque (Nm)" label="Torque (Nm)" max_length="40" name="u_torque__nm_" type="integer"/>
+        <element attributes="import_attribute_name=Wheelbase (m)" label="Wheelbase (m)" max_length="15" name="u_wheelbase__m_" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Drive Type" label="Drive Type" max_length="40" name="u_drive_type" type="string"/>
+        <element attributes="import_attribute_name=Cargo Capacity (L)" label="Cargo Capacity (L)" max_length="40" name="u_cargo_capacity__l_" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Sunroof" label="Sunroof" max_length="40" name="u_sunroof" type="string"/>
+        <element attributes="import_attribute_name=Horsepower (hp)" label="Horsepower (hp)" max_length="40" name="u_horsepower__hp_" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Lane Assist" label="Lane Assist" max_length="40" name="u_lane_assist" type="string"/>
+        <element attributes="import_attribute_name=Year" label="Year" max_length="40" name="u_year" type="integer"/>
+        <element attributes="import_attribute_name=Length (m)" label="Length (m)" max_length="15" name="u_length__m_" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Climate Control" label="Climate Control" max_length="40" name="u_climate_control" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Fuel Type" label="Fuel Type" max_length="40" name="u_fuel_type" type="string"/>
+        <element attributes="import_attribute_name=Width (m)" label="Width (m)" max_length="15" name="u_width__m_" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Transmission" label="Transmission" max_length="40" name="u_transmission" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Engine Type" label="Engine Type" max_length="40" name="u_engine_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Seat Material" label="Seat Material" max_length="40" name="u_seat_material" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Make" label="Make" max_length="40" name="u_make" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Body Style" label="Body Style" max_length="40" name="u_body_style" type="string"/>
+        <element attributes="import_attribute_name=Wheel Size (inches)" label="Wheel Size (inches)" max_length="40" name="u_wheel_size__inches_" type="integer"/>
+        <element attributes="import_attribute_name=Highway MPG" label="Highway MPG" max_length="40" name="u_highway_mpg" type="integer"/>
+        <element attributes="import_attribute_name=0-60 mph (s)" label="0-60 mph (s)" max_length="15" name="u_0_60_mph__s_" type="decimal"/>
+        <element attributes="import_attribute_name=Top Speed (km/h)" label="Top Speed (km/h)" max_length="40" name="u_top_speed__km_h_" type="integer"/>
+        <element attributes="import_attribute_name=City MPG" label="City MPG" max_length="40" name="u_city_mpg" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Available Colors" label="Available Colors" max_length="40" name="u_available_colors" type="string"/>
+        <element attributes="import_attribute_name=Fuel Tank Capacity (L)" label="Fuel Tank Capacity (L)" max_length="15" name="u_fuel_tank_capacity__l_" type="decimal"/>
+        <element attributes="import_attribute_name=Displacement (L)" label="Displacement (L)" max_length="15" name="u_displacement__l_" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Primary Color" label="Primary Color" max_length="40" name="u_primary_color" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Rear Suspension" label="Rear Suspension" max_length="40" name="u_rear_suspension" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Brake Type" label="Brake Type" max_length="40" name="u_brake_type" type="string"/>
+    </element>
+</database>

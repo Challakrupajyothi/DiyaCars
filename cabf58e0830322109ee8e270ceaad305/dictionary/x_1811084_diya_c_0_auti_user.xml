@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="65ec2c64834322109ee8e270ceaad351" label="Audit-user" max_length="40" name="x_1811084_diya_c_0_auti_user" type="collection">
+        <element label="Number" max_length="40" name="number" reference="x_1811084_diya_c_0_customer_profile" type="string"/>
+        <element label="Username" max_length="40" name="username" type="string"/>
+        <element label="Created on" max_length="40" name="created_on" type="glide_date"/>
+        <element choice="1" choice_field="status" choice_table="x_1811084_diya_c_0_customer_profile" label="Status" max_length="40" name="status" type="choice">
+            <choice/>
+        </element>
+    </element>
+</database>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="aaefd2d983c726109ee8e270ceaad35a" label="statecode" max_length="40" name="x_1811084_diya_c_0_statecode" type="collection">
+        <element display="true" label="statename" max_length="40" name="statename" type="string"/>
+        <element label="code" max_length="40" name="code" type="integer"/>
+    </element>
+</database>

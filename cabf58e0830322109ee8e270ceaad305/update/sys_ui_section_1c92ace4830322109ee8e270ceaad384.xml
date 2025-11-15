@@ -2,121 +2,123 @@
     <sys_ui_section caption="Customer Onboarding Details:" section_id="1c92ace4830322109ee8e270ceaad384" sys_domain="global" table="x_1811084_diya_c_0_customer_profile" version="3" view="">
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
+            <name/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-08-05 08:25:12</sys_created_on>
-            <sys_id>bf7d52e7834322509ee8e270ceaad341</sys_id>
+            <sys_created_on>2025-10-14 08:21:33</sys_created_on>
+            <sys_id>38fbfa868320b2109ee8e270ceaad37f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-08-05 08:25:12</sys_updated_on>
+            <sys_updated_on>2025-10-14 08:21:33</sys_updated_on>
             <text/>
             <type display_value="Plain Text">8e7fdb04531300109686ddeeff7b127d</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
+            <name/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-08-05 08:25:12</sys_created_on>
-            <sys_id>f37d52e7834322509ee8e270ceaad341</sys_id>
+            <sys_created_on>2025-10-14 08:21:33</sys_created_on>
+            <sys_id>bcfbfa868320b2109ee8e270ceaad37e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-08-05 08:25:12</sys_updated_on>
+            <sys_updated_on>2025-10-14 08:21:33</sys_updated_on>
             <text>&lt;strong&gt;Customer Details:&lt;/strong&gt;</text>
             <type display_value="Plain Text">8e7fdb04531300109686ddeeff7b127d</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>f37d52e7834322509ee8e270ceaad341</element>
+            <element>bcfbfa868320b2109ee8e270ceaad37e</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-08-05 08:25:12</sys_created_on>
-            <sys_id>3b7d52e7834322509ee8e270ceaad34e</sys_id>
+            <sys_created_on>2025-10-14 08:21:33</sys_created_on>
+            <sys_id>78fb360a8320b2109ee8e270ceaad3db</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Customer Onboarding Details:" display_value="Customer Onboarding Details:" name="x_1811084_diya_c_0_customer_profile" sys_domain="global" view="Default view">1c92ace4830322109ee8e270ceaad384</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-08-05 08:25:12</sys_updated_on>
+            <sys_updated_on>2025-10-14 08:21:33</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>first_name</element>
+            <element>number</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-08-05 08:25:12</sys_created_on>
-            <sys_id>337d52e7834322509ee8e270ceaad34f</sys_id>
+            <sys_created_on>2025-10-14 08:21:34</sys_created_on>
+            <sys_id>b4fb360a8320b2109ee8e270ceaad3dc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Customer Onboarding Details:" display_value="Customer Onboarding Details:" name="x_1811084_diya_c_0_customer_profile" sys_domain="global" view="Default view">1c92ace4830322109ee8e270ceaad384</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-08-05 08:25:12</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>number</element>
-            <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-08-05 08:25:12</sys_created_on>
-            <sys_id>3b7d52e7834322509ee8e270ceaad34f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Customer Onboarding Details:" display_value="Customer Onboarding Details:" name="x_1811084_diya_c_0_customer_profile" sys_domain="global" view="Default view">1c92ace4830322109ee8e270ceaad384</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-08-05 08:25:12</sys_updated_on>
+            <sys_updated_on>2025-10-14 08:21:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>user_id</element>
-            <position>3</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-08-05 08:25:12</sys_created_on>
-            <sys_id>337d52e7834322509ee8e270ceaad350</sys_id>
+            <sys_created_on>2025-10-14 08:21:34</sys_created_on>
+            <sys_id>bcfb360a8320b2109ee8e270ceaad3dc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Customer Onboarding Details:" display_value="Customer Onboarding Details:" name="x_1811084_diya_c_0_customer_profile" sys_domain="global" view="Default view">1c92ace4830322109ee8e270ceaad384</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-08-05 08:25:12</sys_updated_on>
+            <sys_updated_on>2025-10-14 08:21:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>first_name</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-14 08:21:34</sys_created_on>
+            <sys_id>b4fb360a8320b2109ee8e270ceaad3dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer Onboarding Details:" display_value="Customer Onboarding Details:" name="x_1811084_diya_c_0_customer_profile" sys_domain="global" view="Default view">1c92ace4830322109ee8e270ceaad384</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-14 08:21:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>last_name</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-14 08:21:34</sys_created_on>
+            <sys_id>bcfb360a8320b2109ee8e270ceaad3dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer Onboarding Details:" display_value="Customer Onboarding Details:" name="x_1811084_diya_c_0_customer_profile" sys_domain="global" view="Default view">1c92ace4830322109ee8e270ceaad384</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-14 08:21:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>email</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-08-05 08:25:12</sys_created_on>
-            <sys_id>3b7d52e7834322509ee8e270ceaad350</sys_id>
+            <sys_created_on>2025-10-14 08:21:34</sys_created_on>
+            <sys_id>b4fb360a8320b2109ee8e270ceaad3de</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Customer Onboarding Details:" display_value="Customer Onboarding Details:" name="x_1811084_diya_c_0_customer_profile" sys_domain="global" view="Default view">1c92ace4830322109ee8e270ceaad384</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-08-05 08:25:12</sys_updated_on>
+            <sys_updated_on>2025-10-14 08:21:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>phone_number</element>
-            <position>5</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-08-05 08:25:12</sys_created_on>
-            <sys_id>337d52e7834322509ee8e270ceaad351</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Customer Onboarding Details:" display_value="Customer Onboarding Details:" name="x_1811084_diya_c_0_customer_profile" sys_domain="global" view="Default view">1c92ace4830322109ee8e270ceaad384</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-08-05 08:25:12</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>pincod0</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-08-05 08:25:12</sys_created_on>
-            <sys_id>3b7d52e7834322509ee8e270ceaad351</sys_id>
+            <sys_created_on>2025-10-14 08:21:34</sys_created_on>
+            <sys_id>bcfb360a8320b2109ee8e270ceaad3de</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Customer Onboarding Details:" display_value="Customer Onboarding Details:" name="x_1811084_diya_c_0_customer_profile" sys_domain="global" view="Default view">1c92ace4830322109ee8e270ceaad384</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-08-05 08:25:12</sys_updated_on>
+            <sys_updated_on>2025-10-14 08:21:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -124,41 +126,41 @@
             <element>.split</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-08-05 08:25:12</sys_created_on>
-            <sys_id>337d52e7834322509ee8e270ceaad352</sys_id>
+            <sys_created_on>2025-10-14 08:21:34</sys_created_on>
+            <sys_id>b4fb360a8320b2109ee8e270ceaad3df</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Customer Onboarding Details:" display_value="Customer Onboarding Details:" name="x_1811084_diya_c_0_customer_profile" sys_domain="global" view="Default view">1c92ace4830322109ee8e270ceaad384</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-08-05 08:25:12</sys_updated_on>
+            <sys_updated_on>2025-10-14 08:21:34</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>bf7d52e7834322509ee8e270ceaad341</element>
+            <element>38fbfa868320b2109ee8e270ceaad37f</element>
             <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-08-05 08:25:12</sys_created_on>
-            <sys_id>3b7d52e7834322509ee8e270ceaad352</sys_id>
+            <sys_created_on>2025-10-14 08:21:34</sys_created_on>
+            <sys_id>bcfb360a8320b2109ee8e270ceaad3df</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Customer Onboarding Details:" display_value="Customer Onboarding Details:" name="x_1811084_diya_c_0_customer_profile" sys_domain="global" view="Default view">1c92ace4830322109ee8e270ceaad384</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-08-05 08:25:12</sys_updated_on>
+            <sys_updated_on>2025-10-14 08:21:34</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>last_name</element>
+            <element>pincod0</element>
             <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-08-05 08:25:12</sys_created_on>
-            <sys_id>337d52e7834322509ee8e270ceaad353</sys_id>
+            <sys_created_on>2025-10-14 08:21:34</sys_created_on>
+            <sys_id>b4fb360a8320b2109ee8e270ceaad3e0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Customer Onboarding Details:" display_value="Customer Onboarding Details:" name="x_1811084_diya_c_0_customer_profile" sys_domain="global" view="Default view">1c92ace4830322109ee8e270ceaad384</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-08-05 08:25:12</sys_updated_on>
+            <sys_updated_on>2025-10-14 08:21:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -166,13 +168,13 @@
             <element>address_1</element>
             <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-08-05 08:25:12</sys_created_on>
-            <sys_id>3b7d52e7834322509ee8e270ceaad353</sys_id>
+            <sys_created_on>2025-10-14 08:21:34</sys_created_on>
+            <sys_id>bcfb360a8320b2109ee8e270ceaad3e0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Customer Onboarding Details:" display_value="Customer Onboarding Details:" name="x_1811084_diya_c_0_customer_profile" sys_domain="global" view="Default view">1c92ace4830322109ee8e270ceaad384</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-08-05 08:25:12</sys_updated_on>
+            <sys_updated_on>2025-10-14 08:21:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -180,13 +182,13 @@
             <element>address_2</element>
             <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-08-05 08:25:12</sys_created_on>
-            <sys_id>337d52e7834322509ee8e270ceaad354</sys_id>
+            <sys_created_on>2025-10-14 08:21:34</sys_created_on>
+            <sys_id>b4fb360a8320b2109ee8e270ceaad3e1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Customer Onboarding Details:" display_value="Customer Onboarding Details:" name="x_1811084_diya_c_0_customer_profile" sys_domain="global" view="Default view">1c92ace4830322109ee8e270ceaad384</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-08-05 08:25:12</sys_updated_on>
+            <sys_updated_on>2025-10-14 08:21:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -194,13 +196,13 @@
             <element>address_3</element>
             <position>12</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-08-05 08:25:12</sys_created_on>
-            <sys_id>3b7d52e7834322509ee8e270ceaad354</sys_id>
+            <sys_created_on>2025-10-14 08:21:34</sys_created_on>
+            <sys_id>bcfb360a8320b2109ee8e270ceaad3e1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Customer Onboarding Details:" display_value="Customer Onboarding Details:" name="x_1811084_diya_c_0_customer_profile" sys_domain="global" view="Default view">1c92ace4830322109ee8e270ceaad384</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-08-05 08:25:12</sys_updated_on>
+            <sys_updated_on>2025-10-14 08:21:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -208,13 +210,13 @@
             <element>state</element>
             <position>13</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-08-05 08:25:12</sys_created_on>
-            <sys_id>337d52e7834322509ee8e270ceaad355</sys_id>
+            <sys_created_on>2025-10-14 08:21:34</sys_created_on>
+            <sys_id>b4fb360a8320b2109ee8e270ceaad3e2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Customer Onboarding Details:" display_value="Customer Onboarding Details:" name="x_1811084_diya_c_0_customer_profile" sys_domain="global" view="Default view">1c92ace4830322109ee8e270ceaad384</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-08-05 08:25:12</sys_updated_on>
+            <sys_updated_on>2025-10-14 08:21:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -222,13 +224,27 @@
             <element>city1</element>
             <position>14</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-08-05 08:25:12</sys_created_on>
-            <sys_id>3b7d52e7834322509ee8e270ceaad355</sys_id>
+            <sys_created_on>2025-10-14 08:21:34</sys_created_on>
+            <sys_id>bcfb360a8320b2109ee8e270ceaad3e2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Customer Onboarding Details:" display_value="Customer Onboarding Details:" name="x_1811084_diya_c_0_customer_profile" sys_domain="global" view="Default view">1c92ace4830322109ee8e270ceaad384</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-08-05 08:25:12</sys_updated_on>
+            <sys_updated_on>2025-10-14 08:21:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>subscription</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-16 15:33:25</sys_created_on>
+            <sys_id>22f1fe7e8368b2109ee8e270ceaad3a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer Onboarding Details:" display_value="Customer Onboarding Details:" name="x_1811084_diya_c_0_customer_profile" sys_domain="global" view="Default view">1c92ace4830322109ee8e270ceaad384</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-16 15:33:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

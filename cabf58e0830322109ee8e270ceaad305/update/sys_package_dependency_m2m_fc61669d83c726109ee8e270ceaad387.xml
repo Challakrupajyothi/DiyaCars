@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Web Service Import Set Tables" source="com.snc.web_service_import_set_tables">51b1ffea88922210559020d480f9d2b0</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-29 08:55:52</sys_created_on>
+        <sys_id>fc61669d83c726109ee8e270ceaad387</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Diya_cars" source="x_1811084_diya_c_0">cabf58e0830322109ee8e270ceaad305</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-29 08:55:52</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

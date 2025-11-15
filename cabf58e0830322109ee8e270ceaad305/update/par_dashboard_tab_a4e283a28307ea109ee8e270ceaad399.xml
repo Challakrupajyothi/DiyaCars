@@ -2,7 +2,7 @@
     <par_dashboard_tab action="INSERT_OR_UPDATE">
         <active>true</active>
         <background_color/>
-        <dashboard display_value="Customer Profile Status">ace207628307ea109ee8e270ceaad31e</dashboard>
+        <dashboard display_value="Customer Status Summary">ace207628307ea109ee8e270ceaad31e</dashboard>
         <name>New Tab 8</name>
         <order>0</order>
         <sys_class_name>par_dashboard_tab</sys_class_name>

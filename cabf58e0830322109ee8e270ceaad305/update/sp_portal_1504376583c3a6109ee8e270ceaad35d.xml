@@ -5,8 +5,10 @@
         <css_variables/>
         <dark_theme/>
         <default>false</default>
+        <embeddable_macroponents/>
         <enable_ais>false</enable_ais>
         <enable_certificate_based_authentication>false</enable_certificate_based_authentication>
+        <enable_embeddables>false</enable_embeddables>
         <enable_favorites>false</enable_favorites>
         <hide_portal_name>false</hide_portal_name>
         <homepage display_value="login">6995a144cb11120000f8d856634c9c25</homepage>
@@ -16,6 +18,7 @@
         <kb_knowledge_page/>
         <login_page display_value="copy_of_landing_1">428a57dd830f26109ee8e270ceaad35d</login_page>
         <logo/>
+        <logo_alt_text/>
         <notfound_page/>
         <quick_start_config/>
         <rtl_enabled>false</rtl_enabled>

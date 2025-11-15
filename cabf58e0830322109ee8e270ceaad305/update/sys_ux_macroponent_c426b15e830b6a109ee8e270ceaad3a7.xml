@@ -9,9 +9,9 @@
         <data>[]</data>
         <description/>
         <disable_auto_reflow>false</disable_auto_reflow>
-        <dispatched_events/>
+        <dispatched_events>9965b79853030110aab9ddeeff7b1240</dispatched_events>
         <ext_controller_dep/>
-        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extends display_value="Technical dashboard template">2395ddb853772110784cddeeff7b1251</extends>
         <extension_point/>
         <form_factors>{}</form_factors>
         <handled_events/>

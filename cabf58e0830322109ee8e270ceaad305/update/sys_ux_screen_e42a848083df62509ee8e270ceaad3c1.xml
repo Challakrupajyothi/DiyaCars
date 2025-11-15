@@ -4,8 +4,9 @@
         <app_config display_value="Customer">29f98c4083df62509ee8e270ceaad3d0</app_config>
         <description/>
         <disable_auto_reflow>false</disable_auto_reflow>
+        <disable_interoperable>false</disable_interoperable>
         <event_mappings/>
-        <macroponent display_value="Dashboards">942a848083df62509ee8e270ceaad3a3</macroponent>
+        <macroponent display_value="Default">942a848083df62509ee8e270ceaad3a3</macroponent>
         <macroponent_config>{
     "bare": {
         "type": "JSON_LITERAL",

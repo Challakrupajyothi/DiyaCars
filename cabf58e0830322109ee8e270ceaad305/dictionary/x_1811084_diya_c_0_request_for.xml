@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="eeb993cd838032109ee8e270ceaad36d" extends="sn_customerservice_case" label="Request_For" max_length="40" name="x_1811084_diya_c_0_request_for" type="collection">
+        <element label="Approved" max_length="40" name="approved" type="boolean"/>
+    </element>
+</database>

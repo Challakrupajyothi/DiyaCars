@@ -6,7 +6,7 @@
         <action_insert>true</action_insert>
         <action_query>false</action_query>
         <action_update>false</action_update>
-        <active>true</active>
+        <active>false</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
         <change_fields>false</change_fields>
@@ -29,62 +29,54 @@
         <rest_service_text/>
         <rest_variables/>
         <role_conditions/>
-        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
-
-    // Function to generate serial number
+        <script><![CDATA[(function executeRule(current, previous) {
+    // Function to generate serial number 
     function AutoNumber() {
         var suf = "ASS";
         var otp = Math.floor(100000 + Math.random() * 900000);
         return suf + otp;
-    }
-
+    } // Create new Asset
     var newAsset = new GlideRecord("alm_hardware");
     newAsset.initialize();
     newAsset.serial_number = AutoNumber();
-	gs.addErrorMessage("hello");
-
-  
     var categoryGR = new GlideRecord("cmdb_model_category");
     categoryGR.addQuery("name", "Hardware");
     categoryGR.query();
     if (categoryGR.next()) {
-			gs.addErrorMessage("hello");
         newAsset.model_category = categoryGR.sys_id;
     }
+	if (current.cat_item && current.cat_item.name) {
+        var itemName = current.cat_item.name.trim();
+        gs.info("Catalog Item: " + itemName);
 
-    if (current.cat_item) {
         var modelGR = new GlideRecord("cmdb_hardware_product_model");
-        modelGR.addQuery("name", current.cat_item.name);
+        modelGR.addQuery('display_name',current.cat_item.getDisplayValue());
         modelGR.query();
-        if (modelGR.next()) {
-				gs.addErrorMessage("hello");
+        while(modelGR.next())
+		{
+			gs.info("Catalog Item: " + itemName);
             newAsset.model = modelGR.sys_id;
-        }
-    }
-
-        var grr = new GlideRecord("csm_consumer");
-        grr.addQuery("name",current.requested_for);
-        grr.query();
-        if (grr.next()) {
-			gs.addErrorMessage("hello");
-            newAsset.consumer = grr.sys_id;
-            //gs.info("Consumer assigned: " + grr.name);
-        } 
-
-    //newAsset.status = "in_use";
-
+		}
+	}
+    var grr = new GlideRecord("csm_consumer");
+    grr.addQuery("name", current.requested_for.name);
+    grr.query();
+    if (grr.next()) {
+        newAsset.consumer = grr.sys_id;
+        gs.info("Consumer assigned: " + grr.name);
+    } 
+	//newAsset.install_date = gs.nowDateTime();
+    newAsset.status = "in_use";
     var assetId = newAsset.insert();
     gs.info("New Asset created from RITM " + current.number + ": " + assetId);
-
-})(current, previous);
-]]></script>
+})(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-29 09:03:50</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>72557119835432109ee8e270ceaad376</sys_id>
-        <sys_mod_count>59</sys_mod_count>
+        <sys_mod_count>97</sys_mod_count>
         <sys_name>if item requested</sys_name>
         <sys_overrides/>
         <sys_package display_value="Diya_cars" source="x_1811084_diya_c_0">cabf58e0830322109ee8e270ceaad305</sys_package>
@@ -92,7 +84,7 @@
         <sys_scope display_value="Diya_cars">cabf58e0830322109ee8e270ceaad305</sys_scope>
         <sys_update_name>sys_script_72557119835432109ee8e270ceaad376</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-09 05:19:54</sys_updated_on>
+        <sys_updated_on>2025-10-14 10:20:23</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>

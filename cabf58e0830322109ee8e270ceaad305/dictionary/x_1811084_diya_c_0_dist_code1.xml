@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="98ae965983c726109ee8e270ceaad3d6" extends="sys_import_set_row" label="dist code1" max_length="40" name="x_1811084_diya_c_0_dist_code1" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=EXPORT MASTER (STATE &amp; DISTRICT CODES" label="EXPORT MASTER (STATE &amp; DISTRICT CODES" max_length="40" name="u_export_maste_district_codes" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=B" label="B" max_length="40" name="u_b" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=C" label="C" max_length="40" name="u_c" type="string"/>
+    </element>
+</database>

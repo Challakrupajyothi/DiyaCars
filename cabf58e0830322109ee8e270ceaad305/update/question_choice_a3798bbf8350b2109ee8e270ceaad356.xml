@@ -3,7 +3,7 @@
         <inactive>false</inactive>
         <order>2</order>
         <published_ref/>
-        <question display_value="priority">4049cbbf8350b2109ee8e270ceaad339</question>
+        <question display_value="Priority">4049cbbf8350b2109ee8e270ceaad339</question>
         <sys_class_name>question_choice</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-07 09:34:48</sys_created_on>

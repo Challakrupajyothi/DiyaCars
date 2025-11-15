@@ -2,7 +2,7 @@
     <sys_ux_client_script action="INSERT_OR_UPDATE">
         <controller_preset/>
         <includes/>
-        <macroponent display_value="Dashboards">6ad215ce83032a109ee8e270ceaad338</macroponent>
+        <macroponent display_value="Default">6ad215ce83032a109ee8e270ceaad338</macroponent>
         <name>Redirect to dashboard list</name>
         <preset/>
         <required_translations>[]</required_translations>

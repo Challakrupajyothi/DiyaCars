@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller = function($scope, spUtil) {
+  var c = this;
+
+  c.Free = function(subscriptionType) {
+    c.server.get({ subscription: subscriptionType }).then(function(res) {
+      var isUpdated = res.data.updated; // ✅ matches server-side key
+
+      if (isUpdated) {
+        spUtil.addInfoMessage("Plan Updated Successfully!");
+      } else {
+        spUtil.addInfoMessage("You already have this plan!");
+      }
+    });
+  };
+};
+]]></client_script>
+        <controller_as>c</controller_as>
+        <css>* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #0e0e0e;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 50px 20px;
+  color: #000;
+}
+
+.container {
+  max-width: 1200px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color:black;
+}
+
+.plans {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 25px;
+  flex-wrap: nowrap; /* keeps all 3 cards side by side */
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 15px;
+  padding: 25px;
+  text-align: left;
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 250px; /* reduced width to fit 3 cards in one row */
+  min-height: 380px;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card h4 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.price span {
+  font-size: 0.8rem;
+  color: #555;
+  display: block;
+  margin-top: 3px;
+}
+
+ul {
+  list-style: none;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+ul li {
+  margin: 8px 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size:11px;
+}
+
+ul li::before {
+  content: "★";
+  color: #000000;
+  font-size: 0.8rem;
+}
+
+button {
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  border-radius: 25px;
+  padding: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #333333;
+}
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>subscription</name>
+        <option_schema/>
+        <public>false</public>
+        <roles>snc_external</roles>
+        <script><![CDATA[(function() {
+  var subscription = input && input.subscription ? input.subscription : null;
+  data.updated = false;
+  if (subscription) {
+    var user = new GlideRecord("sys_user");
+    user.addQuery("sys_id", gs.getUserID());
+    user.query();
+
+    if (user.next()) {
+      var username = user.user_name.toString();
+
+      var gr = new GlideRecord("x_1811084_diya_c_0_customer_profile");
+      gr.addQuery("user_id", username);
+      gr.query();
+
+      if (gr.next()) {
+        var currentSub = gr.getValue("subscription");
+        data.sub = currentSub;
+
+        if (currentSub !== subscription) {
+          gr.setValue("subscription", subscription);
+          gr.update();
+          data.updated = true;
+        }
+      } 
+    }
+  }
+})();
+]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-16 16:55:00</sys_created_on>
+        <sys_id>41540ff283e8b2109ee8e270ceaad326</sys_id>
+        <sys_mod_count>40</sys_mod_count>
+        <sys_name>subscription</sys_name>
+        <sys_package display_value="Diya_cars" source="x_1811084_diya_c_0">cabf58e0830322109ee8e270ceaad305</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Diya_cars">cabf58e0830322109ee8e270ceaad305</sys_scope>
+        <sys_update_name>sp_widget_41540ff283e8b2109ee8e270ceaad326</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-22 05:58:38</sys_updated_on>
+        <template><![CDATA[<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Subscription Plans</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1> Try Diya Cars Subscription's</h1>
+
+    <div class="plans">
+      <div class="card">
+        <h2>Basic Plan</h2>
+        <p class="price">₹0 <span>INR / month</span></p>
+        <ul>
+          <li>Insurance tenure of 3 years</li>
+          <li>3 Free Car Wash's</li>
+          <li>1 Free Car Servicing's</li>
+          <li>Servicing work's done within 5 day</li>
+        </ul>
+        <button ng-click="c.Free('basic')"> Free</button>
+      </div>
+
+      <div class="card">
+        <h2>Premium Plan</h2>
+        <p class="price">₹9,999 <span>INR / month</span></p>
+        <ul>
+          <li>Insurance tenure of 3 + 2 years</li>
+          <li>5 Free Car Wash's</li>
+          <li>3 Free Car Servicing's</li>
+          <li>Servicing work's done within 3 day's</li>
+        </ul>
+        <button ng-click="c.Free('Premium')">Get Premium</button>
+      </div>
+
+      <div class="card">
+        <h2>Advanced Plan</h2>
+        <p class="price">₹17,999 <span>INR / month</span></p>
+        <ul>
+          <li>Insurance tenure of 3 + 5 years</li>
+          <li>10 Free Car Wash's</li>
+          <li>8 Free Car Servicing's</li>
+          <li>Servicing work's done within ONE day</li>
+        </ul>
+        <button ng-click="c.Free('Advance')">Get Advanced</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+]]></template>
+    </sp_widget>
+</record_update>

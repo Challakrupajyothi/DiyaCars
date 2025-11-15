@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="awa_service_channel">
+    <awa_service_channel action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced_condition>true</advanced_condition>
+        <assign_to_field>assigned_to</assign_to_field>
+        <assignment_group_field>assignment_group</assignment_group_field>
+        <channel_group display_value="Default">2c58cc2f6f03111026b95d3a945b36c5</channel_group>
+        <condition table="sn_customerservice_case">x_1811084_diya_c_0_service_type=General Service^ORx_1811084_diya_c_0_service_type=Water Service^EQ<item display_value="General Service" endquery="false" field="x_1811084_diya_c_0_service_type" goto="false" newquery="false" operator="=" or="false" value="General Service"/>
+            <item display_value="Water Service" endquery="false" field="x_1811084_diya_c_0_service_type" goto="false" newquery="false" operator="=" or="true" value="Water Service"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <default_capacity>100</default_capacity>
+        <default_size>1</default_size>
+        <description/>
+        <enable_logging>false</enable_logging>
+        <inbox_alert_audio/>
+        <log_level>none</log_level>
+        <message_alert_audio/>
+        <name>Request for Service</name>
+        <order>100</order>
+        <stop_logging_at/>
+        <stop_logging_schedule/>
+        <sys_class_name>awa_service_channel</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-22 12:06:18</sys_created_on>
+        <sys_id>6cebb8b083b472109ee8e270ceaad373</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Request for Service</sys_name>
+        <sys_package display_value="Diya_cars" source="x_1811084_diya_c_0">cabf58e0830322109ee8e270ceaad305</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Diya_cars">cabf58e0830322109ee8e270ceaad305</sys_scope>
+        <sys_update_name>awa_service_channel_6cebb8b083b472109ee8e270ceaad373</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-23 07:49:59</sys_updated_on>
+        <type/>
+        <utilization_condition table="sn_customerservice_case">x_1811084_diya_c_0_service_type=General Service^ORx_1811084_diya_c_0_service_type=Water Service^EQ<item display_value="General Service" endquery="false" field="x_1811084_diya_c_0_service_type" goto="false" newquery="false" operator="=" or="false" value="General Service"/>
+            <item display_value="Water Service" endquery="false" field="x_1811084_diya_c_0_service_type" goto="false" newquery="false" operator="=" or="true" value="Water Service"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </utilization_condition>
+        <workitem_table>sn_customerservice_case</workitem_table>
+    </awa_service_channel>
+</record_update>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="DELETE">
+        <sc_cat_item display_value="Need Help?">4dbd68c2834fe6109ee8e270ceaad3ca</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-27 07:24:39</sys_created_on>
+        <sys_id>a1eb4b60831872109ee8e270ceaad392</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Need Help?.snc_external</sys_name>
+        <sys_package display_value="Diya_cars" source="x_1811084_diya_c_0">cabf58e0830322109ee8e270ceaad305</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Diya_cars">cabf58e0830322109ee8e270ceaad305</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_a1eb4b60831872109ee8e270ceaad392</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-27 07:24:39</sys_updated_on>
+        <user_criteria display_value="snc_external">92f1722c835472109ee8e270ceaad308</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Diya_cars">cabf58e0830322109ee8e270ceaad305</application>
+        <file_path/>
+        <instance_id>5e129a9f1b5e7950699443f4bd4bcb7a</instance_id>
+        <instance_name>dev209878</instance_name>
+        <name>sc_cat_item_user_criteria_mtom_a1eb4b60831872109ee8e270ceaad392</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom"><sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="Need Help?">4dbd68c2834fe6109ee8e270ceaad3ca</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-27 07:24:39</sys_created_on><sys_id>a1eb4b60831872109ee8e270ceaad392</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Need Help?.snc_external</sys_name><sys_package display_value="Diya_cars" source="x_1811084_diya_c_0">cabf58e0830322109ee8e270ceaad305</sys_package><sys_policy/><sys_scope display_value="Diya_cars">cabf58e0830322109ee8e270ceaad305</sys_scope><sys_update_name>sc_cat_item_user_criteria_mtom_a1eb4b60831872109ee8e270ceaad392</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-27 07:24:39</sys_updated_on><user_criteria display_value="snc_external">92f1722c835472109ee8e270ceaad308</user_criteria></sc_cat_item_user_criteria_mtom></record_update>]]></payload>
+        <payload_hash>-1424136514</payload_hash>
+        <record_name>Need Help?.snc_external</record_name>
+        <reverted_from/>
+        <source>46bf58e0830322109ee8e270ceaad30a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-27 07:24:39</sys_created_on>
+        <sys_id>21eb4b60831872109ee8e270ceaad395</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1998a0f3f470000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-27 07:24:39</sys_updated_on>
+        <type>Catalog Item Available for</type>
+        <update_guid>25eb4b6023187210d8882c5609fb0f94</update_guid>
+        <update_guid_history>25eb4b6023187210d8882c5609fb0f94:-1424136514</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Need Help?.snc_external">aabf0328831872109ee8e270ceaad3aa</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-27 07:41:22</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_mtom">sc_cat_item_user_criteria_mtom</sys_db_object>
+        <sys_id>92948afdf4714d158b4535a02d8b8b61</sys_id>
+        <sys_metadata>a1eb4b60831872109ee8e270ceaad392</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Need Help?.snc_external</sys_name>
+        <sys_package display_value="Diya_cars" source="x_1811084_diya_c_0">cabf58e0830322109ee8e270ceaad305</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Diya_cars">cabf58e0830322109ee8e270ceaad305</sys_scope>
+        <sys_scope_delete display_value="">7480798a01b84f3fb1f777bf20f6c7f9</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_a1eb4b60831872109ee8e270ceaad392</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_mtom_a1eb4b60831872109ee8e270ceaad392">21eb4b60831872109ee8e270ceaad395</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-27 07:41:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

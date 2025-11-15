@@ -50,6 +50,7 @@
         <type>flow</type>
         <updation_source/>
         <version>2</version>
+        <version_record/>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=f5f5029183d432109ee8e270ceaad30d"/>
     <sys_variable_value action="delete_multiple" query="document_key=f5f5029183d432109ee8e270ceaad30d"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
     <io_set_item action="INSERT_OR_UPDATE">
         <order>100</order>
-        <sc_cat_item display_value="TeslaModel3-SUV2023">2ce2d469834366109ee8e270ceaad35a</sc_cat_item>
+        <sc_cat_item display_value="TeslaModel3-SUV2024">2ce2d469834366109ee8e270ceaad35a</sc_cat_item>
         <sys_class_name>io_set_item</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-29 17:15:35</sys_created_on>

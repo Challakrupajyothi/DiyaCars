@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4caa507983c7a6109ee8e270ceaad375" extends="user_activation_request" label="Diya C 0 User Acti Req 758375" max_length="40" name="x_1811084_diya_c_0_user_acti_req_758375" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=pincode" label="Pincode" max_length="40" name="pincode" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=userid" label="UserID" max_length="40" name="userid" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=address_1" label="Address 1" max_length="40" name="address_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=dl_issued_date" label="DL Issued Date" max_length="40" name="dl_issued_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=pan_attachment" label="PAN Attachment" max_length="40" name="pan_attachment" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=dl_attachment" label="DL Attachment" max_length="40" name="dl_attachment" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=address_3" label="Address 3" max_length="40" name="address_3" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=aadhar_number" label="Aadhar Number" max_length="40" name="aadhar_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=aadhar_vid_number" label="Aadhar VID Number" max_length="40" name="aadhar_vid_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=address_2" label="Address 2" max_length="40" name="address_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=dl_expiry_date" label="DL Expiry Date" max_length="40" name="dl_expiry_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=pan_number" label="PAN Number" max_length="40" name="pan_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=dl_category" label="DL Category" max_length="40" name="dl_category" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=driving_license_number" label="Driving License Number" max_length="40" name="driving_license_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=phone_number" label="Phone number" max_length="40" name="phone_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=aadhar_attachment" label="Aadhar Attachment" max_length="40" name="aadhar_attachment" type="string"/>
+    </element>
+</database>

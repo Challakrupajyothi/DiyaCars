@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
     <sc_cat_item_category action="INSERT_OR_UPDATE">
-        <sc_cat_item display_value="TeslaModel3-SUV2023">2ce2d469834366109ee8e270ceaad35a</sc_cat_item>
+        <sc_cat_item display_value="TeslaModel3-SUV2024">2ce2d469834366109ee8e270ceaad35a</sc_cat_item>
         <sc_category display_value="Tesla ">554f8ce1834366109ee8e270ceaad31e</sc_category>
         <sys_class_name>sc_cat_item_category</sys_class_name>
         <sys_created_by>admin</sys_created_by>

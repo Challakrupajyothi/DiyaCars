@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Diya Cars">5e52a0e4830322109ee8e270ceaad3e9</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>CONTENT_PAGE</link_type>
+        <map_page/>
+        <mobile_title>catalogs</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name/>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-29 09:31:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>72396699830b26109ee8e270ceaad364</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>catalogs</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Diya_cars" source="x_1811084_diya_c_0">cabf58e0830322109ee8e270ceaad305</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Diya_cars">cabf58e0830322109ee8e270ceaad305</sys_scope>
+        <sys_update_name>sys_app_module_72396699830b26109ee8e270ceaad364</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-29 09:31:32</sys_updated_on>
+        <timeline_page/>
+        <title>catalogs</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Diya_cars">cabf58e0830322109ee8e270ceaad305</application>
+        <file_path/>
+        <instance_id>5e129a9f1b5e7950699443f4bd4bcb7a</instance_id>
+        <instance_name>dev209878</instance_name>
+        <name>sys_app_module_72396699830b26109ee8e270ceaad364</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Diya Cars">5e52a0e4830322109ee8e270ceaad3e9</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>CONTENT_PAGE</link_type><map_page/><mobile_title>catalogs</mobile_title><mobile_view_name>Mobile</mobile_view_name><name/><order/><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-29 09:31:32</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>72396699830b26109ee8e270ceaad364</sys_id><sys_mod_count>0</sys_mod_count><sys_name>catalogs</sys_name><sys_overrides/><sys_package display_value="Diya_cars" source="x_1811084_diya_c_0">cabf58e0830322109ee8e270ceaad305</sys_package><sys_policy/><sys_scope display_value="Diya_cars">cabf58e0830322109ee8e270ceaad305</sys_scope><sys_update_name>sys_app_module_72396699830b26109ee8e270ceaad364</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-29 09:31:32</sys_updated_on><timeline_page/><title>catalogs</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>967195525</payload_hash>
+        <record_name>catalogs</record_name>
+        <reverted_from/>
+        <source>46bf58e0830322109ee8e270ceaad30a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-29 09:31:32</sys_created_on>
+        <sys_id>1b892e99830b26109ee8e270ceaad302</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1985585dc3b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-29 09:31:32</sys_updated_on>
+        <type>Module</type>
+        <update_guid>1f892e99a80b261027d1840350e7ee01</update_guid>
+        <update_guid_history>1f892e99a80b261027d1840350e7ee01:967195525</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="catalogs">bc8663948330fa109ee8e270ceaad338</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-21 11:13:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>682751c0add44c2297ed86d0c6aa9071</sys_id>
+        <sys_metadata>72396699830b26109ee8e270ceaad364</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>catalogs</sys_name>
+        <sys_package display_value="Diya_cars" source="x_1811084_diya_c_0">cabf58e0830322109ee8e270ceaad305</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Diya_cars">cabf58e0830322109ee8e270ceaad305</sys_scope>
+        <sys_scope_delete display_value="">7480798a01b84f3fb1f777bf20f6c7f9</sys_scope_delete>
+        <sys_update_name>sys_app_module_72396699830b26109ee8e270ceaad364</sys_update_name>
+        <sys_update_version display_value="sys_app_module_72396699830b26109ee8e270ceaad364">1b892e99830b26109ee8e270ceaad302</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-21 11:13:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

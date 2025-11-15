@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="294e43cd834032109ee8e270ceaad398" extends="sn_customerservice_case" label="Complaint" max_length="40" name="x_1811084_diya_c_0_complaint" type="collection">
+        <element label="Complaint Type" max_length="40" name="complaint_type" type="string"/>
+        <element label="Description of Issue" max_length="40" name="description_of_issue" type="string"/>
+    </element>
+</database>

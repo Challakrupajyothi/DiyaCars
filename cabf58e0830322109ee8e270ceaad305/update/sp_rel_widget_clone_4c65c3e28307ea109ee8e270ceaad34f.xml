@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rel_widget_clone">
     <sp_rel_widget_clone action="INSERT_OR_UPDATE">
-        <child display_value="Copy of Copy of Login">4865c3e28307ea109ee8e270ceaad34b</child>
+        <child display_value="Diyacars login">4865c3e28307ea109ee8e270ceaad34b</child>
         <cloned>2025-07-30 10:51:13</cloned>
         <last_validated>2025-07-30 10:51:13</last_validated>
         <parent display_value="Login">6506d341cb33020000f8d856634c9cdc</parent>

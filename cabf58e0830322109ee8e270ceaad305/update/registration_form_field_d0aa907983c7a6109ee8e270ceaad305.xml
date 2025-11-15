@@ -6,7 +6,7 @@
         <display>true</display>
         <mandatory>true</mandatory>
         <order>300</order>
-        <registration_configuration display_value="customer">4d9a107983c7a6109ee8e270ceaad38f</registration_configuration>
+        <registration_configuration display_value="Customer Onboarding Form">4d9a107983c7a6109ee8e270ceaad38f</registration_configuration>
         <sys_class_name>registration_form_field</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-30 12:24:04</sys_created_on>

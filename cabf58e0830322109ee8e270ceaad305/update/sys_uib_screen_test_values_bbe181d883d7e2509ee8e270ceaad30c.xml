@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
     <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
+        <macroponent/>
         <macroponent_config>{
     "e7defb6dc340521020677602b4013173": {
         "dashboardSysId": "null",
@@ -9,7 +10,7 @@
     "table": "approval",
     "sysid": "b5e425c48397a2509ee8e270ceaad390"
 }</macroponent_config>
-        <screen display_value="pending">73e181d883d7e2509ee8e270ceaad308</screen>
+        <screen display_value="status">73e181d883d7e2509ee8e270ceaad308</screen>
         <sys_class_name>sys_uib_screen_test_values</sys_class_name>
         <sys_created_by>samba</sys_created_by>
         <sys_created_on>2025-08-07 09:40:36</sys_created_on>

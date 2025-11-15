@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="DELETE">
+        <sc_cat_item display_value="Need Help?">4dbd68c2834fe6109ee8e270ceaad3ca</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-03 12:19:46</sys_created_on>
+        <sys_id>13f80fe283dcf2109ee8e270ceaad34d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Need Help?.Users with 'sn_customerservice.consumer' role</sys_name>
+        <sys_package display_value="Diya_cars" source="x_1811084_diya_c_0">cabf58e0830322109ee8e270ceaad305</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Diya_cars">cabf58e0830322109ee8e270ceaad305</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_13f80fe283dcf2109ee8e270ceaad34d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-03 12:19:46</sys_updated_on>
+        <user_criteria display_value="Users with 'sn_customerservice.consumer' role">6b0088c753213300c830ddeeff7b12e9</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Diya_cars">cabf58e0830322109ee8e270ceaad305</application>
+        <file_path/>
+        <instance_id>5e129a9f1b5e7950699443f4bd4bcb7a</instance_id>
+        <instance_name>dev209878</instance_name>
+        <name>sc_cat_item_user_criteria_mtom_13f80fe283dcf2109ee8e270ceaad34d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom"><sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="Need Help?">4dbd68c2834fe6109ee8e270ceaad3ca</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-03 12:19:46</sys_created_on><sys_id>13f80fe283dcf2109ee8e270ceaad34d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Need Help?.Users with 'sn_customerservice.consumer' role</sys_name><sys_package display_value="Diya_cars" source="x_1811084_diya_c_0">cabf58e0830322109ee8e270ceaad305</sys_package><sys_policy/><sys_scope display_value="Diya_cars">cabf58e0830322109ee8e270ceaad305</sys_scope><sys_update_name>sc_cat_item_user_criteria_mtom_13f80fe283dcf2109ee8e270ceaad34d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-03 12:19:46</sys_updated_on><user_criteria display_value="Users with 'sn_customerservice.consumer' role">6b0088c753213300c830ddeeff7b12e9</user_criteria></sc_cat_item_user_criteria_mtom></record_update>]]></payload>
+        <payload_hash>-560171709</payload_hash>
+        <record_name>Need Help?.Users with 'sn_customerservice.consumer' role</record_name>
+        <reverted_from/>
+        <source>46bf58e0830322109ee8e270ceaad30a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-03 12:19:46</sys_created_on>
+        <sys_id>1ff80fe283dcf2109ee8e270ceaad350</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199aa039a8a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-03 12:19:46</sys_updated_on>
+        <type>Catalog Item Available for</type>
+        <update_guid>13f80fe20fdcf210792847f7f9e4d450</update_guid>
+        <update_guid_history>13f80fe20fdcf210792847f7f9e4d450:-560171709</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Need Help?.Users with 'sn_customerservice.consumer' role">8d54873e83d076109ee8e270ceaad36f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-04 06:37:54</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_mtom">sc_cat_item_user_criteria_mtom</sys_db_object>
+        <sys_id>06e68e06aab5460282357218947a42b1</sys_id>
+        <sys_metadata>13f80fe283dcf2109ee8e270ceaad34d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Need Help?.Users with 'sn_customerservice.consumer' role</sys_name>
+        <sys_package display_value="Diya_cars" source="x_1811084_diya_c_0">cabf58e0830322109ee8e270ceaad305</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Diya_cars">cabf58e0830322109ee8e270ceaad305</sys_scope>
+        <sys_scope_delete display_value="">7480798a01b84f3fb1f777bf20f6c7f9</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_13f80fe283dcf2109ee8e270ceaad34d</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_mtom_13f80fe283dcf2109ee8e270ceaad34d">1ff80fe283dcf2109ee8e270ceaad350</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-04 06:37:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

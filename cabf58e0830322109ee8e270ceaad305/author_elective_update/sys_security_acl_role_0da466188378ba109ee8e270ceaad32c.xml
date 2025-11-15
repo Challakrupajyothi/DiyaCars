@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-21 06:45:42</sys_created_on>
+        <sys_id>0da466188378ba109ee8e270ceaad32c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_1811084_diya_c_0_customer_profile.x_1811084_diya_c_0.kyc_form_user</sys_name>
+        <sys_package display_value="Diya_cars" source="x_1811084_diya_c_0">cabf58e0830322109ee8e270ceaad305</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Diya_cars">cabf58e0830322109ee8e270ceaad305</sys_scope>
+        <sys_security_acl display_value="x_1811084_diya_c_0_customer_profile">887f76fd839bea509ee8e270ceaad3fd</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_0da466188378ba109ee8e270ceaad32c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-21 09:55:02</sys_updated_on>
+        <sys_user_role display_value="x_1811084_diya_c_0.kyc_form_user" name="x_1811084_diya_c_0.kyc_form_user">8aa178e8834322109ee8e270ceaad34d</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Diya_cars">cabf58e0830322109ee8e270ceaad305</application>
+        <file_path/>
+        <instance_id>5e129a9f1b5e7950699443f4bd4bcb7a</instance_id>
+        <instance_name>dev209878</instance_name>
+        <name>sys_security_acl_role_0da466188378ba109ee8e270ceaad32c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-21 06:45:42</sys_created_on><sys_id>0da466188378ba109ee8e270ceaad32c</sys_id><sys_mod_count>2</sys_mod_count><sys_name>x_1811084_diya_c_0_customer_profile.x_1811084_diya_c_0.kyc_form_user</sys_name><sys_package display_value="Diya_cars" source="x_1811084_diya_c_0">cabf58e0830322109ee8e270ceaad305</sys_package><sys_policy/><sys_scope display_value="Diya_cars">cabf58e0830322109ee8e270ceaad305</sys_scope><sys_security_acl display_value="x_1811084_diya_c_0_customer_profile">887f76fd839bea509ee8e270ceaad3fd</sys_security_acl><sys_update_name>sys_security_acl_role_0da466188378ba109ee8e270ceaad32c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-21 09:55:02</sys_updated_on><sys_user_role display_value="x_1811084_diya_c_0.kyc_form_user" name="x_1811084_diya_c_0.kyc_form_user">8aa178e8834322109ee8e270ceaad34d</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>1883187458</payload_hash>
+        <record_name>x_1811084_diya_c_0_customer_profile.x_1811084_diya_c_0.kyc_form_user</record_name>
+        <reverted_from/>
+        <source>9c462cac832476109ee8e270ceaad37d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-21 09:55:02</sys_created_on>
+        <sys_id>127493d483bcba109ee8e270ceaad3bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19a06318db50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-21 09:55:02</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>d67493d4dfbcba106e744b1dd146bdbe</update_guid>
+        <update_guid_history>d67493d4dfbcba106e744b1dd146bdbe:1883187458,67aacfd4337cba1022696017a87f6304:487868255,4d2926503cb8ba103209501c9c7d9be6:1883187458</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1811084_diya_c_0_customer_profile.x_1811084_diya_c_0.kyc_form_user">4e5d17d483fcba109ee8e270ceaad3e4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-21 10:33:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>a4a4d534e49c42fcaa931a7436785c44</sys_id>
+        <sys_metadata>0da466188378ba109ee8e270ceaad32c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1811084_diya_c_0_customer_profile.x_1811084_diya_c_0.kyc_form_user</sys_name>
+        <sys_package display_value="Diya_cars" source="x_1811084_diya_c_0">cabf58e0830322109ee8e270ceaad305</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Diya_cars">cabf58e0830322109ee8e270ceaad305</sys_scope>
+        <sys_scope_delete display_value="">7480798a01b84f3fb1f777bf20f6c7f9</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_0da466188378ba109ee8e270ceaad32c</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_0da466188378ba109ee8e270ceaad32c">127493d483bcba109ee8e270ceaad3bf</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-21 10:33:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
     <sc_cat_item_category action="INSERT_OR_UPDATE">
         <sc_cat_item display_value="Audi A4">cc79129183c726109ee8e270ceaad3ee</sc_cat_item>
-        <sc_category display_value="Audi">2fe7dedd838726109ee8e270ceaad3e8</sc_category>
+        <sc_category display_value="Audi Cars">2fe7dedd838726109ee8e270ceaad3e8</sc_category>
         <sys_class_name>sc_cat_item_category</sys_class_name>
         <sys_created_by>samba</sys_created_by>
         <sys_created_on>2025-07-29 08:25:26</sys_created_on>
