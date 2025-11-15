@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme">
+    <m2m_app_config_theme action="INSERT_OR_UPDATE">
+        <applicability/>
+        <order>0</order>
+        <sys_class_name>m2m_app_config_theme</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-07 11:50:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7dafd118839be2509ee8e270ceaad355</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Diya_cars" source="x_1811084_diya_c_0">cabf58e0830322109ee8e270ceaad305</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Diya_cars">cabf58e0830322109ee8e270ceaad305</sys_scope>
+        <sys_update_name>m2m_app_config_theme_7dafd118839be2509ee8e270ceaad355</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-07 11:50:26</sys_updated_on>
+        <theme/>
+        <ux_app_configuration display_value="Customer">29f98c4083df62509ee8e270ceaad3d0</ux_app_configuration>
+    </m2m_app_config_theme>
+</record_update>

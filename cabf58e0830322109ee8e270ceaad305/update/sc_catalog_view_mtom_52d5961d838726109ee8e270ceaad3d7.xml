@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog_view_mtom">
+    <sc_catalog_view_mtom action="INSERT_OR_UPDATE">
+        <default>true</default>
+        <sc_catalog display_value="Diya Cars">5f85d699838726109ee8e270ceaad3a9</sc_catalog>
+        <sys_class_name>sc_catalog_view_mtom</sys_class_name>
+        <sys_created_by>samba</sys_created_by>
+        <sys_created_on>2025-07-29 08:05:28</sys_created_on>
+        <sys_id>52d5961d838726109ee8e270ceaad3d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Diya Cars.catalog_diya_cars</sys_name>
+        <sys_package display_value="Diya_cars" source="x_1811084_diya_c_0">cabf58e0830322109ee8e270ceaad305</sys_package>
+        <sys_policy/>
+        <sys_portal_page display_value="catalog_diya_cars">add34e898303e2109ee8e270ceaad3c2</sys_portal_page>
+        <sys_scope display_value="Diya_cars">cabf58e0830322109ee8e270ceaad305</sys_scope>
+        <sys_update_name>sc_catalog_view_mtom_52d5961d838726109ee8e270ceaad3d7</sys_update_name>
+        <sys_updated_by>samba</sys_updated_by>
+        <sys_updated_on>2025-07-29 08:05:28</sys_updated_on>
+    </sc_catalog_view_mtom>
+</record_update>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="diya cars 2" section_id="40a8410e83cfe6109ee8e270ceaad34e" sys_domain="global" table="sc_cat_item" version="3" view="diya_cars">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <name/>
+            <sys_created_by>samba</sys_created_by>
+            <sys_created_on>2025-07-31 10:24:36</sys_created_on>
+            <sys_id>48e881ca83cfe6109ee8e270ceaad34e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>samba</sys_updated_by>
+            <sys_updated_on>2025-07-31 10:24:36</sys_updated_on>
+            <text/>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sc_catalogs</element>
+            <position>0</position>
+            <sys_created_by>samba</sys_created_by>
+            <sys_created_on>2025-07-31 10:24:36</sys_created_on>
+            <sys_id>c4e881ca83cfe6109ee8e270ceaad34f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="diya cars 2" display_value="diya cars 2" name="sc_cat_item" sys_domain="global" view="cfe8165183c726109ee8e270ceaad31c">40a8410e83cfe6109ee8e270ceaad34e</sys_ui_section>
+            <sys_updated_by>samba</sys_updated_by>
+            <sys_updated_on>2025-07-31 10:24:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>M2M.sc_cat_item.sc_cat_item_category.sc_cat_item</element>
+            <position>1</position>
+            <sys_created_by>samba</sys_created_by>
+            <sys_created_on>2025-07-31 10:24:36</sys_created_on>
+            <sys_id>cce881ca83cfe6109ee8e270ceaad34f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="diya cars 2" display_value="diya cars 2" name="sc_cat_item" sys_domain="global" view="cfe8165183c726109ee8e270ceaad31c">40a8410e83cfe6109ee8e270ceaad34e</sys_ui_section>
+            <sys_updated_by>samba</sys_updated_by>
+            <sys_updated_on>2025-07-31 10:24:36</sys_updated_on>
+            <sys_user/>
+            <type>list</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_name</element>
+            <position>2</position>
+            <sys_created_by>samba</sys_created_by>
+            <sys_created_on>2025-07-31 10:24:36</sys_created_on>
+            <sys_id>c4e881ca83cfe6109ee8e270ceaad350</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="diya cars 2" display_value="diya cars 2" name="sc_cat_item" sys_domain="global" view="cfe8165183c726109ee8e270ceaad31c">40a8410e83cfe6109ee8e270ceaad34e</sys_ui_section>
+            <sys_updated_by>samba</sys_updated_by>
+            <sys_updated_on>2025-07-31 10:24:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>3</position>
+            <sys_created_by>samba</sys_created_by>
+            <sys_created_on>2025-07-31 10:24:36</sys_created_on>
+            <sys_id>cce881ca83cfe6109ee8e270ceaad350</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="diya cars 2" display_value="diya cars 2" name="sc_cat_item" sys_domain="global" view="cfe8165183c726109ee8e270ceaad31c">40a8410e83cfe6109ee8e270ceaad34e</sys_ui_section>
+            <sys_updated_by>samba</sys_updated_by>
+            <sys_updated_on>2025-07-31 10:24:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_created_by</element>
+            <position>4</position>
+            <sys_created_by>samba</sys_created_by>
+            <sys_created_on>2025-07-31 10:24:36</sys_created_on>
+            <sys_id>44e84d0e83cfe6109ee8e270ceaad39f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="diya cars 2" display_value="diya cars 2" name="sc_cat_item" sys_domain="global" view="cfe8165183c726109ee8e270ceaad31c">40a8410e83cfe6109ee8e270ceaad34e</sys_ui_section>
+            <sys_updated_by>samba</sys_updated_by>
+            <sys_updated_on>2025-07-31 10:24:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cost</element>
+            <position>5</position>
+            <sys_created_by>samba</sys_created_by>
+            <sys_created_on>2025-07-31 10:24:36</sys_created_on>
+            <sys_id>4ce84d0e83cfe6109ee8e270ceaad39f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="diya cars 2" display_value="diya cars 2" name="sc_cat_item" sys_domain="global" view="cfe8165183c726109ee8e270ceaad31c">40a8410e83cfe6109ee8e270ceaad34e</sys_ui_section>
+            <sys_updated_by>samba</sys_updated_by>
+            <sys_updated_on>2025-07-31 10:24:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>M2M.sc_cat_item.sc_2_kb.sc_cat_item</element>
+            <position>6</position>
+            <sys_created_by>samba</sys_created_by>
+            <sys_created_on>2025-07-31 10:24:36</sys_created_on>
+            <sys_id>44e84d0e83cfe6109ee8e270ceaad3a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="diya cars 2" display_value="diya cars 2" name="sc_cat_item" sys_domain="global" view="cfe8165183c726109ee8e270ceaad31c">40a8410e83cfe6109ee8e270ceaad34e</sys_ui_section>
+            <sys_updated_by>samba</sys_updated_by>
+            <sys_updated_on>2025-07-31 10:24:36</sys_updated_on>
+            <sys_user/>
+            <type>list</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_updated_by</element>
+            <position>7</position>
+            <sys_created_by>samba</sys_created_by>
+            <sys_created_on>2025-07-31 10:24:36</sys_created_on>
+            <sys_id>4ce84d0e83cfe6109ee8e270ceaad3a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="diya cars 2" display_value="diya cars 2" name="sc_cat_item" sys_domain="global" view="cfe8165183c726109ee8e270ceaad31c">40a8410e83cfe6109ee8e270ceaad34e</sys_ui_section>
+            <sys_updated_by>samba</sys_updated_by>
+            <sys_updated_on>2025-07-31 10:24:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>M2M.sc_cat_item.sc_cat_item_children.child</element>
+            <position>8</position>
+            <sys_created_by>samba</sys_created_by>
+            <sys_created_on>2025-07-31 10:24:36</sys_created_on>
+            <sys_id>44e84d0e83cfe6109ee8e270ceaad3a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="diya cars 2" display_value="diya cars 2" name="sc_cat_item" sys_domain="global" view="cfe8165183c726109ee8e270ceaad31c">40a8410e83cfe6109ee8e270ceaad34e</sys_ui_section>
+            <sys_updated_by>samba</sys_updated_by>
+            <sys_updated_on>2025-07-31 10:24:36</sys_updated_on>
+            <sys_user/>
+            <type>list</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>request_method</element>
+            <position>9</position>
+            <sys_created_by>samba</sys_created_by>
+            <sys_created_on>2025-07-31 10:24:36</sys_created_on>
+            <sys_id>4ce84d0e83cfe6109ee8e270ceaad3a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="diya cars 2" display_value="diya cars 2" name="sc_cat_item" sys_domain="global" view="cfe8165183c726109ee8e270ceaad31c">40a8410e83cfe6109ee8e270ceaad34e</sys_ui_section>
+            <sys_updated_by>samba</sys_updated_by>
+            <sys_updated_on>2025-07-31 10:24:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>M2M.sc_cat_item.sc_2_sc.sc_cat_item</element>
+            <position>10</position>
+            <sys_created_by>samba</sys_created_by>
+            <sys_created_on>2025-07-31 10:24:36</sys_created_on>
+            <sys_id>44e84d0e83cfe6109ee8e270ceaad3a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="diya cars 2" display_value="diya cars 2" name="sc_cat_item" sys_domain="global" view="cfe8165183c726109ee8e270ceaad31c">40a8410e83cfe6109ee8e270ceaad34e</sys_ui_section>
+            <sys_updated_by>samba</sys_updated_by>
+            <sys_updated_on>2025-07-31 10:24:36</sys_updated_on>
+            <sys_user/>
+            <type>list</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>48e881ca83cfe6109ee8e270ceaad34e</element>
+            <position>11</position>
+            <sys_created_by>samba</sys_created_by>
+            <sys_created_on>2025-07-31 10:24:36</sys_created_on>
+            <sys_id>4ce84d0e83cfe6109ee8e270ceaad3a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="diya cars 2" display_value="diya cars 2" name="sc_cat_item" sys_domain="global" view="cfe8165183c726109ee8e270ceaad31c">40a8410e83cfe6109ee8e270ceaad34e</sys_ui_section>
+            <sys_updated_by>samba</sys_updated_by>
+            <sys_updated_on>2025-07-31 10:24:36</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>diya cars 2</caption>
+            <header>false</header>
+            <name>sc_cat_item</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>samba</sys_created_by>
+            <sys_created_on>2025-07-31 10:23:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>40a8410e83cfe6109ee8e270ceaad34e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sc_cat_item</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Diya_cars" source="x_1811084_diya_c_0">cabf58e0830322109ee8e270ceaad305</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Diya_cars">cabf58e0830322109ee8e270ceaad305</sys_scope>
+            <sys_update_name>sys_ui_section_40a8410e83cfe6109ee8e270ceaad34e</sys_update_name>
+            <sys_updated_by>samba</sys_updated_by>
+            <sys_updated_on>2025-07-31 10:23:30</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Diya cars" name="diya_cars">cfe8165183c726109ee8e270ceaad31c</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

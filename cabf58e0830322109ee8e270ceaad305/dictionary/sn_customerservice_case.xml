@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="email_client=true" audit="true" db_object_id="2b40a2398397ea509ee8e270ceaad332" extends="task" label="Case" max_length="40" name="sn_customerservice_case" text_index="true" type="collection">
+        <element choice="1" label="Service Type" max_length="40" name="x_1811084_diya_c_0_service_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="General Service" sequence="1" value="General Service"/>
+                <element inactive_on_update="false" label="Water Service" sequence="2" value="Water Service"/>
+                <element inactive_on_update="false" label="Others" sequence="3" value="3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="DL Issued Date" max_length="40" name="x_1811084_diya_c_0_dl_issued_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Aadhar Number" max_length="40" name="x_1811084_diya_c_0_aadhar_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Aadhar no" max_length="40" name="x_1811084_diya_c_0_aadhar_no" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="PAN Number" max_length="40" name="x_1811084_diya_c_0_pan_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="DL Expiry Date" max_length="40" name="x_1811084_diya_c_0_dl_expiry_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Driving License Number" max_length="40" name="x_1811084_diya_c_0_driving_license_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Subscription" max_length="40" name="x_1811084_diya_c_0_subscription" type="string"/>
+    </element>
+</database>

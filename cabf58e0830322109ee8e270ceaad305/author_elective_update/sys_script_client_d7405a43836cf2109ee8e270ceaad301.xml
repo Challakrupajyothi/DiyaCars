@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>subscription</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>subscription1</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') return;
+    var consumerID=g_form.getValue("consumer");
+    var ga1 = new GlideAjax("ServiceCarWashEntitlement");
+    ga1.addParam('sysparm_name', 'servicecreateEntitlement'); 
+    ga1.addParam('sysparm_plan', newValue);
+    ga1.addParam('sysparm_consumer', consumerID);
+
+    ga1.getXMLAnswer(function(response) {
+        if (response == "created") {
+            g_form.addInfoMessage("✅ Entitlement created successfully for " + newValue + " plan.");
+        } else {
+            g_form.addErrorMessage("⚠️ Failed to create entitlement: " + response);
+        }
+    });
+}
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-17 07:51:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d7405a43836cf2109ee8e270ceaad301</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>subscription1</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Diya_cars" source="x_1811084_diya_c_0">cabf58e0830322109ee8e270ceaad305</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Diya_cars">cabf58e0830322109ee8e270ceaad305</sys_scope>
+        <sys_update_name>sys_script_client_d7405a43836cf2109ee8e270ceaad301</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-17 10:38:21</sys_updated_on>
+        <table>x_1811084_diya_c_0_customer_profile</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Diya_cars">cabf58e0830322109ee8e270ceaad305</application>
+        <file_path/>
+        <instance_id>5e129a9f1b5e7950699443f4bd4bcb7a</instance_id>
+        <instance_name>dev209878</instance_name>
+        <name>sys_script_client_d7405a43836cf2109ee8e270ceaad301</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;subscription&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;subscription1&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') return;
+    var consumerID=g_form.getValue("consumer");
+    var ga1 = new GlideAjax("ServiceCarWashEntitlement");
+    ga1.addParam('sysparm_name', 'servicecreateEntitlement'); 
+    ga1.addParam('sysparm_plan', newValue);
+    ga1.addParam('sysparm_consumer', consumerID);
+
+    ga1.getXMLAnswer(function(response) {
+        if (response == "created") {
+            g_form.addInfoMessage("✅ Entitlement created successfully for " + newValue + " plan.");
+        } else {
+            g_form.addErrorMessage("⚠️ Failed to create entitlement: " + response);
+        }
+    });
+}
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-17 07:51:10&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;d7405a43836cf2109ee8e270ceaad301&lt;/sys_id&gt;&lt;sys_mod_count&gt;17&lt;/sys_mod_count&gt;&lt;sys_name&gt;subscription1&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Diya_cars" source="x_1811084_diya_c_0"&gt;cabf58e0830322109ee8e270ceaad305&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Diya_cars"&gt;cabf58e0830322109ee8e270ceaad305&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_d7405a43836cf2109ee8e270ceaad301&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-17 10:38:21&lt;/sys_updated_on&gt;&lt;table&gt;x_1811084_diya_c_0_customer_profile&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1875656295</payload_hash>
+        <record_name>subscription1</record_name>
+        <reverted_from/>
+        <source>9c462cac832476109ee8e270ceaad37d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-17 10:38:21</sys_created_on>
+        <sys_id>8e08b20f832036109ee8e270ceaad38c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199f1bfc6f30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-17 10:38:21</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>4608b20fbd203610798d69d0262af88c</update_guid>
+        <update_guid_history>4608b20fbd203610798d69d0262af88c:-1875656295,0f57f2cb222036101e1dacc829f0ffe1:790118278,27f6b64b202036108e398b4f45aa0423:175150406,5986f28b602036107abb098dbe153113:-1585690720,2516b60b2a20361055ca4831a742d8fd:-328227293,1effa6cfe1ecf2109fd174d795dbf3d7:-1585690720,c72a6e47b8ecf210137530c6550d79c7:1476976605,46d96a479aecf2106507d5319c6458ba:-1370101803,54b8aec395ecf2106c5765fd5d09aca4:1196393973,4f0b5e4f986cf21096a8ac80398e3310:-130880942,65aa120fc26cf210c1b2e4e0d345aad5:-833068462,79c91e0f876cf2103a2d7aadbd40ab92:1193017652,ee39124f5d6cf210beea8e6cc11ab974:918311194,1cb8564f326cf21035fb16d728ae0bf2:901607112,67c45e87b96cf210943cbb0acbeb9690:-669866923,71e11a435b6cf2103233bb301b76e293:-335409346,11d19a83e86cf210f19cf54d427b3e53:-1580627227,4dc11ac36f6cf210444d26ff788fbc78:-1856986013</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-17 10:47:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>aef673ac3b1d4a3a8bf103f9c8e6e4f1</sys_id>
+        <sys_metadata>d7405a43836cf2109ee8e270ceaad301</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>subscription1</sys_name>
+        <sys_package display_value="Diya_cars" source="x_1811084_diya_c_0">cabf58e0830322109ee8e270ceaad305</sys_package>
+        <sys_parent display_value="Diya Cars">ebc02464830322109ee8e270ceaad30b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Diya_cars">cabf58e0830322109ee8e270ceaad305</sys_scope>
+        <sys_scope_delete display_value="">7480798a01b84f3fb1f777bf20f6c7f9</sys_scope_delete>
+        <sys_update_name>sys_script_client_d7405a43836cf2109ee8e270ceaad301</sys_update_name>
+        <sys_update_version display_value="sys_script_client_d7405a43836cf2109ee8e270ceaad301">8e08b20f832036109ee8e270ceaad38c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-17 10:47:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

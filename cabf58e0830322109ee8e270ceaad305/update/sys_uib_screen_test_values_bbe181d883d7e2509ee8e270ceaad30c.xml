@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
+        <macroponent/>
+        <macroponent_config>{
+    "e7defb6dc340521020677602b4013173": {
+        "dashboardSysId": "null",
+        "experienceId": "d23cb9db838bae109ee8e270ceaad34c",
+        "filterId": null
+    },
+    "table": "approval",
+    "sysid": "b5e425c48397a2509ee8e270ceaad390"
+}</macroponent_config>
+        <screen display_value="status">73e181d883d7e2509ee8e270ceaad308</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>samba</sys_created_by>
+        <sys_created_on>2025-08-07 09:40:36</sys_created_on>
+        <sys_id>bbe181d883d7e2509ee8e270ceaad30c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Diya_cars" source="x_1811084_diya_c_0">cabf58e0830322109ee8e270ceaad305</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Diya_cars">cabf58e0830322109ee8e270ceaad305</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_bbe181d883d7e2509ee8e270ceaad30c</sys_update_name>
+        <sys_updated_by>samba</sys_updated_by>
+        <sys_updated_on>2025-08-07 09:55:29</sys_updated_on>
+    </sys_uib_screen_test_values>
+</record_update>

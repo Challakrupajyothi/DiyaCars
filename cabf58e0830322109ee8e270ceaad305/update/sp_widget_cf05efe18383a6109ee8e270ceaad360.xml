@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>reg_form</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Reg_form</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  var gr=new GlideRecord("incident");
+	gr.addQuery("created");
+	gr.query();
+	if(gr.next())
+		{
+			data.incident=gr.getValue("number");
+}
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-30 08:35:11</sys_created_on>
+        <sys_id>cf05efe18383a6109ee8e270ceaad360</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Reg_form</sys_name>
+        <sys_package display_value="Diya_cars" source="x_1811084_diya_c_0">cabf58e0830322109ee8e270ceaad305</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Diya_cars">cabf58e0830322109ee8e270ceaad305</sys_scope>
+        <sys_update_name>sp_widget_cf05efe18383a6109ee8e270ceaad360</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-02 11:28:31</sys_updated_on>
+        <template><![CDATA[<div class="panel panel-default p-4">
+  <h3>Customer Onboarding{{data.incident}}</h3>
+
+  <form ng-submit="submitForm()">
+
+    <div class="form-group">
+      <label>User ID</label>
+      <input type="text" class="form-control" ng-model="c.user.user_id">
+    </div>
+
+    <div class="form-group">
+      <label>First Name</label>
+      <input type="text" class="form-control" ng-model="c.user.first_name">
+    </div>
+
+    <div class="form-group">
+      <label>Last Name</label>
+      <input type="text" class="form-control" ng-model="c.user.last_name">
+    </div>
+
+    <div class="form-group">
+      <label>Email</label>
+      <input type="email" class="form-control" ng-model="c.user.email">
+    </div>
+
+    <div class="form-group">
+      <label>Password</label>
+      <input type="password" class="form-control" ng-model="c.user.password">
+    </div>
+
+    <div class="form-group">
+      <label>Phone Number</label>
+      <input type="text" class="form-control" ng-model="c.user.phone">
+    </div>
+
+    <!-- ]]>📌<![CDATA[ PAN Section -->
+    <h4 class="mt-4">PAN</h4>
+    <div class="form-group">
+      <label>PAN Number</label>
+      <input type="text" class="form-control" ng-model="c.user.pan_number">
+    </div>
+    <div class="form-group">
+      <label>PAN Attachment</label>
+      <input type="file" onchange="angular.element(this).scope().uploadFile(this, 'pan')" />
+    </div>
+
+    <!-- ]]>📌<![CDATA[ Aadhar Section -->
+    <h4 class="mt-4">Aadhar</h4>
+    <div class="form-group">
+      <label>Aadhar Number</label>
+      <input type="text" class="form-control" ng-model="c.user.aadhar_number">
+    </div>
+    <div class="form-group">
+      <label>Aadhar VID</label>
+      <input type="text" class="form-control" ng-model="c.user.aadhar_vid">
+    </div>
+    <div class="form-group">
+      <label>Aadhar Attachment</label>
+      <input type="file" onchange="angular.element(this).scope().uploadFile(this, 'aadhar')" />
+    </div>
+
+    <!-- ]]>📌<![CDATA[ Driving License Section -->
+    <h4 class="mt-4">Driving License</h4>
+    <div class="form-group">
+      <label>DL Number</label>
+      <input type="text" class="form-control" ng-model="c.user.dl_number">
+    </div>
+    <div class="form-group">
+      <label>DL Issued Date</label>
+      <input type="date" class="form-control" ng-model="c.user.dl_issued">
+    </div>
+    <div class="form-group">
+      <label>License Category</label>
+      <input type="text" class="form-control" ng-model="c.user.dl_category">
+    </div>
+    <div class="form-group">
+      <label>DL Expiry Date</label>
+      <input type="date" class="form-control" ng-model="c.user.dl_expiry">
+    </div>
+    <div class="form-group">
+      <label>DL Attachment</label>
+      <input type="file" onchange="angular.element(this).scope().uploadFile(this, 'dl')" />
+    </div>
+
+    <button class="btn btn-primary mt-3" type="submit">Submit</button>
+  </form>
+</div>
+]]></template>
+    </sp_widget>
+</record_update>

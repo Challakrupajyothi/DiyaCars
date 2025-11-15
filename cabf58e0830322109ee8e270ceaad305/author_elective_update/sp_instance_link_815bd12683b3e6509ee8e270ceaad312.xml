@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description>car</short_description>
+        <size>md</size>
+        <sp_column display_value="1">eed76f5a8383aa109ee8e270ceaad355</sp_column>
+        <sp_page display_value="user_home_page">81553f2d83c3a6109ee8e270ceaad3df</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-08 07:49:17</sys_created_on>
+        <sys_id>815bd12683b3e6509ee8e270ceaad312</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Get your dream car</sys_name>
+        <sys_package display_value="Diya_cars" source="x_1811084_diya_c_0">cabf58e0830322109ee8e270ceaad305</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Diya_cars">cabf58e0830322109ee8e270ceaad305</sys_scope>
+        <sys_update_name>sp_instance_link_815bd12683b3e6509ee8e270ceaad312</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-08 07:49:54</sys_updated_on>
+        <title>Get your dream car</title>
+        <type>page</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=815bd12683b3e6509ee8e270ceaad312"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Diya_cars">cabf58e0830322109ee8e270ceaad305</application>
+        <file_path/>
+        <instance_id>5e129a9f1b5e7950699443f4bd4bcb7a</instance_id>
+        <instance_name>dev209878</instance_name>
+        <name>sp_instance_link_815bd12683b3e6509ee8e270ceaad312</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;kb_article/&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;sc_cat_item/&gt;&lt;sc_category/&gt;&lt;short_description&gt;car&lt;/short_description&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;eed76f5a8383aa109ee8e270ceaad355&lt;/sp_column&gt;&lt;sp_page display_value="user_home_page"&gt;81553f2d83c3a6109ee8e270ceaad3df&lt;/sp_page&gt;&lt;sp_widget display_value="Icon Link"&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-08 07:49:17&lt;/sys_created_on&gt;&lt;sys_id&gt;815bd12683b3e6509ee8e270ceaad312&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Get your dream car&lt;/sys_name&gt;&lt;sys_package display_value="Diya_cars" source="x_1811084_diya_c_0"&gt;cabf58e0830322109ee8e270ceaad305&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Diya_cars"&gt;cabf58e0830322109ee8e270ceaad305&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_815bd12683b3e6509ee8e270ceaad312&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-08 07:49:54&lt;/sys_updated_on&gt;&lt;title&gt;Get your dream car&lt;/title&gt;&lt;type&gt;page&lt;/type&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"link_template": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=815bd12683b3e6509ee8e270ceaad312"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1681219402</payload_hash>
+        <record_name>Get your dream car</record_name>
+        <reverted_from/>
+        <source>46bf58e0830322109ee8e270ceaad30a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-08 07:49:54</sys_created_on>
+        <sys_id>c27b112683b3e6509ee8e270ceaad3a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199284d89ea0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-08 07:49:54</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>8a7b11267bb3e6506a17f53495616ca0</update_guid>
+        <update_guid_history>8a7b11267bb3e6506a17f53495616ca0:1681219402,955bd1267eb3e65047e31c68b5bc7214:-1268921036</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Get your dream car">b5b3b2ec835472109ee8e270ceaad369</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-27 05:38:59</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>1378e76222a5496083e920561c88a100</sys_id>
+        <sys_metadata>815bd12683b3e6509ee8e270ceaad312</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Get your dream car</sys_name>
+        <sys_package display_value="Diya_cars" source="x_1811084_diya_c_0">cabf58e0830322109ee8e270ceaad305</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Diya_cars">cabf58e0830322109ee8e270ceaad305</sys_scope>
+        <sys_scope_delete display_value="">7480798a01b84f3fb1f777bf20f6c7f9</sys_scope_delete>
+        <sys_update_name>sp_instance_link_815bd12683b3e6509ee8e270ceaad312</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_815bd12683b3e6509ee8e270ceaad312">c27b112683b3e6509ee8e270ceaad3a1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-27 05:38:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

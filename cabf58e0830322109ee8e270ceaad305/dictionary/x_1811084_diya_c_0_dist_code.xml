@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="26ed961983c726109ee8e270ceaad3c9" label="dist code" max_length="40" name="x_1811084_diya_c_0_dist_code" type="collection">
+        <element label="State code" max_length="40" name="state_code" type="integer"/>
+        <element display="true" label="DistrictName" max_length="40" name="districtname" type="string"/>
+        <element label="DistrictCode" max_length="40" name="districtcode" type="integer"/>
+    </element>
+</database>

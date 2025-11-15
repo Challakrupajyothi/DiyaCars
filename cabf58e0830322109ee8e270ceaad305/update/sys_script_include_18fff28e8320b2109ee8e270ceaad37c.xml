@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1811084_diya_c_0.GetKycDetails</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>Kyc details in case form</description>
+        <mobile_callable>false</mobile_callable>
+        <name>GetKycDetails</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var GetKycDetails = Class.create();
+GetKycDetails.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    getKYCDetails: function() {
+        var consumerSysId = this.getParameter('sysparm_consumer_sysid');
+        if (!consumerSysId) {
+            gs.error("No consumer sys_id provided");
+            return "";
+        } 
+        var consumerGR = new GlideRecord("csm_consumer");
+        if (!consumerGR.get(consumerSysId)) {
+            gs.error("Consumer not found for sys_id: " + consumerSysId);
+            return "";
+        }
+        var consumerUserGR = new GlideRecord("csm_consumer_user");
+        consumerUserGR.addQuery("name", consumerGR.name);
+        consumerUserGR.query();
+        if (!consumerUserGR.next()) {
+            gs.info("No consumer_user found for consumer: " + consumerGR.name);
+            return "";
+        }
+        var profileGR = new GlideRecord("x_1811084_diya_c_0_customer_profile");
+        profileGR.addQuery("user_id", consumerUserGR.user_name); 
+        profileGR.query();
+
+        if (profileGR.next()) {
+			gs.info(profileGR.name+"p"+profileGR.aadhar_number);
+             var kycData = {
+            name: profileGR.name+ "", 
+            aadhar_no: profileGR.aadhar_number + "",
+            pan_no: profileGR.pan_number + "",
+            driving_license_no: profileGR.driving_license_number + "",
+            dl_issued_d: profileGR.dl_issued_date + "",
+            dl_expiry_d: profileGR.dl_expiry_date + ""
+        };
+        }
+		else
+		{
+			return "";
+		}
+        return JSON.stringify(kycData);
+    }
+});
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-14 09:28:08</sys_created_on>
+        <sys_id>18fff28e8320b2109ee8e270ceaad37c</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>GetKycDetails</sys_name>
+        <sys_package display_value="Diya_cars" source="x_1811084_diya_c_0">cabf58e0830322109ee8e270ceaad305</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Diya_cars">cabf58e0830322109ee8e270ceaad305</sys_scope>
+        <sys_update_name>sys_script_include_18fff28e8320b2109ee8e270ceaad37c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-18 06:42:50</sys_updated_on>
+    </sys_script_include>
+</record_update>

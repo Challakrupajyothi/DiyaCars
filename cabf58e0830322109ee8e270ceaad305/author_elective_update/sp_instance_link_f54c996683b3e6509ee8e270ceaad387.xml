@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category display_value="Audi Cars">2fe7dedd838726109ee8e270ceaad3e8</sc_category>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">1ceb116683b3e6509ee8e270ceaad366</sp_column>
+        <sp_page display_value="home_page">d0dd104e83cbe6109ee8e270ceaad31b</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-08 07:53:25</sys_created_on>
+        <sys_id>f54c996683b3e6509ee8e270ceaad387</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Audi</sys_name>
+        <sys_package display_value="Diya_cars" source="x_1811084_diya_c_0">cabf58e0830322109ee8e270ceaad305</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Diya_cars">cabf58e0830322109ee8e270ceaad305</sys_scope>
+        <sys_update_name>sp_instance_link_f54c996683b3e6509ee8e270ceaad387</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-08 07:55:19</sys_updated_on>
+        <title>Audi</title>
+        <type>page</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=f54c996683b3e6509ee8e270ceaad387"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Diya_cars">cabf58e0830322109ee8e270ceaad305</application>
+        <file_path/>
+        <instance_id>5e129a9f1b5e7950699443f4bd4bcb7a</instance_id>
+        <instance_name>dev209878</instance_name>
+        <name>sp_instance_link_f54c996683b3e6509ee8e270ceaad387</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;kb_article/&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;sc_cat_item/&gt;&lt;sc_category display_value="Audi Cars"&gt;2fe7dedd838726109ee8e270ceaad3e8&lt;/sc_category&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;1ceb116683b3e6509ee8e270ceaad366&lt;/sp_column&gt;&lt;sp_page display_value="home_page"&gt;d0dd104e83cbe6109ee8e270ceaad31b&lt;/sp_page&gt;&lt;sp_widget display_value="Icon Link"&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-08 07:53:25&lt;/sys_created_on&gt;&lt;sys_id&gt;f54c996683b3e6509ee8e270ceaad387&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Audi&lt;/sys_name&gt;&lt;sys_package display_value="Diya_cars" source="x_1811084_diya_c_0"&gt;cabf58e0830322109ee8e270ceaad305&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Diya_cars"&gt;cabf58e0830322109ee8e270ceaad305&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_f54c996683b3e6509ee8e270ceaad387&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-08 07:55:19&lt;/sys_updated_on&gt;&lt;title&gt;Audi&lt;/title&gt;&lt;type&gt;page&lt;/type&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"link_template": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=f54c996683b3e6509ee8e270ceaad387"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>302327365</payload_hash>
+        <record_name>Audi</record_name>
+        <reverted_from/>
+        <source>46bf58e0830322109ee8e270ceaad30a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-08 07:55:19</sys_created_on>
+        <sys_id>69bc91a683b3e6509ee8e270ceaad36b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199285281b40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-08 07:55:19</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>21bc91a61cb3e6505e32407ca3a0e76b</update_guid>
+        <update_guid_history>21bc91a61cb3e6505e32407ca3a0e76b:302327365,616c5966e5b3e65073f268e55c1b005a:-1011033805,bd4c99666ab3e650a3a6dffd2b91e588:-883308943</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Audi">494d91a683b3e6509ee8e270ceaad3ba</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-08 07:57:44</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>00a50ee5e53748068086277475c3c1c4</sys_id>
+        <sys_metadata>f54c996683b3e6509ee8e270ceaad387</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Audi</sys_name>
+        <sys_package display_value="Diya_cars" source="x_1811084_diya_c_0">cabf58e0830322109ee8e270ceaad305</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Diya_cars">cabf58e0830322109ee8e270ceaad305</sys_scope>
+        <sys_scope_delete display_value="">7480798a01b84f3fb1f777bf20f6c7f9</sys_scope_delete>
+        <sys_update_name>sp_instance_link_f54c996683b3e6509ee8e270ceaad387</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_f54c996683b3e6509ee8e270ceaad387">69bc91a683b3e6509ee8e270ceaad36b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-08 07:57:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

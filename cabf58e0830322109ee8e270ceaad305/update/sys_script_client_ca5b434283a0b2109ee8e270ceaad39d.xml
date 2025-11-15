@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>GetKycDetails</name>
+        <order>100</order>
+        <script><![CDATA[function onLoad() {
+    var consumerSysId = g_form.getValue('consumer');
+    //g_form.addInfoMessage("Consumer Sys ID: " + consumerSysId);
+
+    if (!consumerSysId) return; // stop if field is empty
+
+    var ga = new GlideAjax('GetKycDetails');
+    ga.addParam('sysparm_name', 'getKYCDetails');
+    ga.addParam('sysparm_consumer_sysid', consumerSysId); // ✅ match parameter name
+
+    ga.getXMLAnswer(function(response) {
+        if (response) {
+            try {
+                var kyc = JSON.parse(response);
+
+                g_form.setValue('x_1811084_diya_c_0_aadhar_number', kyc.aadhar_no);
+                g_form.setValue('x_1811084_diya_c_0_pan_number', kyc.pan_no);
+                g_form.setValue('x_1811084_diya_c_0_driving_license_number', kyc.driving_license_no);
+                g_form.setValue('x_1811084_diya_c_0_dl_issued_date', kyc.dl_issued_d);
+                g_form.setValue('x_1811084_diya_c_0_dl_expiry_date', kyc.dl_expiry_d);
+
+                // Make fields read-only
+                g_form.setReadOnly('x_1811084_diya_c_0_aadhar_number', true);
+                g_form.setReadOnly('x_1811084_diya_c_0_pan_number', true);
+                g_form.setReadOnly('x_1811084_diya_c_0_driving_license_number', true);
+                g_form.setReadOnly('x_1811084_diya_c_0_dl_issued_date', true);
+                g_form.setReadOnly('x_1811084_diya_c_0_dl_expiry_date', true);
+
+                // g_form.addInfoMessage("KYC details loaded successfully.");
+            } catch (e) {
+                g_form.addErrorMessage("Error parsing KYC details: " + e.message);
+            }
+        } else {
+            g_form.addInfoMessage("No KYC data found for this consumer.");
+        }
+    });
+}
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-14 10:00:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ca5b434283a0b2109ee8e270ceaad39d</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>GetKycDetails</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Diya_cars" source="x_1811084_diya_c_0">cabf58e0830322109ee8e270ceaad305</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Diya_cars">cabf58e0830322109ee8e270ceaad305</sys_scope>
+        <sys_update_name>sys_script_client_ca5b434283a0b2109ee8e270ceaad39d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-18 06:50:55</sys_updated_on>
+        <table>sn_customerservice_case</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

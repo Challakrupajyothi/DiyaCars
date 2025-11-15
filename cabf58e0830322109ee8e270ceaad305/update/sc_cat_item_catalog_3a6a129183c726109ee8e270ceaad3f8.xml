@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Audi A4">cc79129183c726109ee8e270ceaad3ee</sc_cat_item>
+        <sc_catalog display_value="Diya Cars">5f85d699838726109ee8e270ceaad3a9</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>samba</sys_created_by>
+        <sys_created_on>2025-07-29 08:25:26</sys_created_on>
+        <sys_id>3a6a129183c726109ee8e270ceaad3f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Diya Cars.Audi A4</sys_name>
+        <sys_package display_value="Diya_cars" source="x_1811084_diya_c_0">cabf58e0830322109ee8e270ceaad305</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Diya_cars">cabf58e0830322109ee8e270ceaad305</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_3a6a129183c726109ee8e270ceaad3f8</sys_update_name>
+        <sys_updated_by>samba</sys_updated_by>
+        <sys_updated_on>2025-07-29 08:25:26</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>

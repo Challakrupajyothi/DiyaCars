@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="7f4153c1838032109ee8e270ceaad3f7" sys_domain="global" table="x_1811084_diya_c_0_complaint" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-16 10:49:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8c5193c1838032109ee8e270ceaad332</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1811084_diya_c_0_complaint" name="x_1811084_diya_c_0_complaint" sys_domain="global" view="c20162fd8397ea509ee8e270ceaad3a8">7f4153c1838032109ee8e270ceaad3f7</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1811084_diya_c_0_complaint" sys_domain="global" view="c20162fd8397ea509ee8e270ceaad3a8">c45193c1838032109ee8e270ceaad31f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-16 10:49:34</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-16 10:49:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>405193c1838032109ee8e270ceaad31f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1811084_diya_c_0_complaint" name="x_1811084_diya_c_0_complaint" sys_domain="global" view="c20162fd8397ea509ee8e270ceaad3a8">7f4153c1838032109ee8e270ceaad3f7</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_1811084_diya_c_0_complaint" sys_domain="global" view="c20162fd8397ea509ee8e270ceaad3a8">485193c1838032109ee8e270ceaad317</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-16 10:49:34</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-16 10:49:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8c5193c1838032109ee8e270ceaad302</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1811084_diya_c_0_complaint" name="x_1811084_diya_c_0_complaint" sys_domain="global" view="c20162fd8397ea509ee8e270ceaad3a8">7f4153c1838032109ee8e270ceaad3f7</sys_ui_form>
+            <sys_ui_section caption="Resolution Information" display_value="Resolution Information" name="x_1811084_diya_c_0_complaint" sys_domain="global" view="c20162fd8397ea509ee8e270ceaad3a8">f34153c1838032109ee8e270ceaad3fa</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-16 10:49:33</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-16 10:49:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c05193c1838032109ee8e270ceaad317</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1811084_diya_c_0_complaint" name="x_1811084_diya_c_0_complaint" sys_domain="global" view="c20162fd8397ea509ee8e270ceaad3a8">7f4153c1838032109ee8e270ceaad3f7</sys_ui_form>
+            <sys_ui_section caption="Related Records" display_value="Related Records" name="x_1811084_diya_c_0_complaint" sys_domain="global" view="c20162fd8397ea509ee8e270ceaad3a8">045193c1838032109ee8e270ceaad303</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-16 10:49:34</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1811084_diya_c_0_complaint</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-16 10:49:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7f4153c1838032109ee8e270ceaad3f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1811084_diya_c_0_complaint</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Diya_cars" source="x_1811084_diya_c_0">cabf58e0830322109ee8e270ceaad305</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Diya_cars">cabf58e0830322109ee8e270ceaad305</sys_scope>
+            <sys_update_name>sys_ui_form_sections_7f4153c1838032109ee8e270ceaad3f7</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-16 10:49:33</sys_updated_on>
+            <sys_user/>
+            <view display_value="Case" name="case">c20162fd8397ea509ee8e270ceaad3a8</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

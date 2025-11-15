@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="bd40a21d83c726109ee8e270ceaad3db" extends="sys_import_set_row" label="statecode1" max_length="40" name="x_1811084_diya_c_0_statecode1" type="collection">
+        <element attributes="import_attribute_name=State Code*" label="State Code*" max_length="40" name="u_state_code_" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=State Name: v1.0*" label="State Name: v1.0*" max_length="40" name="u_state_name__v1_0_" type="string"/>
+    </element>
+</database>

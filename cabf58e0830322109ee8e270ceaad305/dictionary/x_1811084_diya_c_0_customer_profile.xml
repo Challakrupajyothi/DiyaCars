@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ebc02464830322109ee8e270ceaad30b" label="Diya Cars" max_length="40" name="x_1811084_diya_c_0_customer_profile" type="collection">
+        <element display="true" label="First Name" mandatory="true" max_length="40" name="first_name" type="string"/>
+        <element label="License Category" max_length="40" name="license_category" type="string"/>
+        <element default="Basic" label="Subscription" max_length="40" name="subscription" type="string"/>
+        <element label="Aadhar Attachment" max_length="40" name="aadhar_attachment" type="file_attachment"/>
+        <element label="Phone Number" mandatory="true" max_length="40" name="phone_number" type="phone_number_e164"/>
+        <element choice="1" label="City" mandatory="true" max_length="40" name="city" reference="x_1811084_diya_c_0_dist_code" reference_qual="javascript:&quot;state_code=&quot; + current.state.code;&#13;&#10;" type="reference" use_dependent_field="true" use_dynamic_default="true" use_reference_qualifier="advanced">
+            <choice/>
+        </element>
+        <element attributes="ref_auto_completer=AJAXReferenceChoice" choice="1" label="State" mandatory="true" max_length="40" name="state" reference="x_1811084_diya_c_0_statecode" reference_qual="javascript:&quot;state_code=&quot; + current.code;" type="reference" use_reference_qualifier="advanced">
+            <choice>
+                <element inactive_on_update="false" label="Goa" sequence="12" value="Goa"/>
+                <element inactive_on_update="false" label="Maharashtra" sequence="18" value="Mh"/>
+                <element inactive_on_update="false" label="Karnataka" sequence="16" value="ka"/>
+                <element inactive_on_update="false" label="Haryana" sequence="14" value="Hy"/>
+                <element inactive_on_update="false" label="Assam" sequence="9" value="As"/>
+                <element inactive_on_update="false" label="Tripura" sequence="24" value="Tr"/>
+                <element inactive_on_update="false" label="Telangana" sequence="23" value="Te"/>
+                <element inactive_on_update="false" label="Arunachal Pradesh" sequence="8" value="Ar"/>
+                <element inactive_on_update="false" label="Uttarakhand" sequence="25" value="Ut"/>
+                <element inactive_on_update="false" label="Bihar" sequence="10" value="Bi"/>
+                <element inactive_on_update="false" label="Odisha" sequence="19" value="od"/>
+                <element inactive_on_update="false" label="Andhra Pradesh" sequence="7" value="Ap"/>
+                <element inactive_on_update="false" label="Rajasthan" sequence="20" value="Rj"/>
+                <element inactive_on_update="false" label="WestBengal" sequence="26" value="Wb"/>
+                <element inactive_on_update="false" label="Jharkhand" sequence="15" value="Jh"/>
+                <element inactive_on_update="false" label="Sikkim" sequence="21" value="Sk"/>
+                <element inactive_on_update="false" label="Tamil Nadu" sequence="22" value="Tn"/>
+                <element inactive_on_update="false" label="Chathisgarh" sequence="11" value="Ch"/>
+                <element inactive_on_update="false" label="Gujarat" sequence="13" value="Gu"/>
+                <element inactive_on_update="false" label="Kerala" sequence="17" value="Ke"/>
+                <element inactive_on_update="false" label="Punjab" sequence="5" value="Pu"/>
+                <element inactive_on_update="false" label="Himachal Pradesh" sequence="0" value="Hp"/>
+                <element inactive_on_update="false" label="Madhya Pradesh" sequence="1" value="Mp"/>
+                <element inactive_on_update="false" label="Nagaland" sequence="4" value="Na"/>
+                <element inactive_on_update="false" label="Manipur" sequence="2" value="Ma"/>
+                <element inactive_on_update="false" label="Uttar Pradesh" sequence="6" value="Up"/>
+                <element inactive_on_update="false" label="Mizoram" sequence="3" value="Mi"/>
+            </choice>
+        </element>
+        <element label="DL Expiry Date" mandatory="true" max_length="40" name="dl_expiry_date" type="glide_date"/>
+        <element label="License Attachment" max_length="40" name="license_attachment" type="file_attachment"/>
+        <element label="DL Issued Date" mandatory="true" max_length="40" name="dl_issued_date" type="glide_date"/>
+        <element label="Aadhar VID" max_length="16" name="aadhar_vid" type="string"/>
+        <element label="User ID" mandatory="true" max_length="40" name="user_id" read_only="true" type="string"/>
+        <element label="City" mandatory="true" max_length="32" name="city1" reference="x_1811084_diya_c_0_dist_code" reference_qual="javascript:&quot;state_code=&quot; + current.state.code;&#13;&#10;" type="reference" use_reference_qualifier="advanced"/>
+        <element label="Pincode" mandatory="true" max_length="15" name="pincode" type="integer"/>
+        <element label="Address 3" mandatory="true" max_length="200" name="address_3" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=userid" label="UserID" max_length="40" name="userid" type="string"/>
+        <element label="Address 1" mandatory="true" max_length="200" name="address_1" type="string"/>
+        <element label="PAN Number" mandatory="true" max_length="10" name="pan_number" type="string"/>
+        <element label="Email" mandatory="true" max_length="40" name="email" type="string"/>
+        <element label="Address 2" mandatory="true" max_length="200" name="address_2" type="string"/>
+        <element label="PAN Attachment" max_length="40" name="pan_attachment" type="file_attachment"/>
+        <element label="Aadhar Number" mandatory="true" max_length="12" name="aadhar_number" type="string"/>
+        <element label="Last Name" mandatory="true" max_length="40" name="last_name" type="string"/>
+        <element label="Pincode" mandatory="true" max_length="6" name="pincod0" type="string"/>
+        <element label="Driving License Number" mandatory="true" max_length="13" name="driving_license_number" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <index name="index">
+            <element name="city1"/>
+        </index>
+    </element>
+</database>

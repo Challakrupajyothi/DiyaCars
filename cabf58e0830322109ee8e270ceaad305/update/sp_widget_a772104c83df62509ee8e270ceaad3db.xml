@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[$scope.attachments = {};
+
+$scope.uploadFile = function(file, docType) {
+  spAttachmentAPI.attachFileToRecord(file, 'x_1811084_diya_c_0_customer_profile', null).then(function(response) {
+    $scope.attachments[docType] = response.sys_id;
+    console.log(docType + ' uploaded: ' + response.sys_id);
+  });
+};
+
+$scope.submit = function() {
+  var payload = {
+    first_name: $scope.data.first_name,
+    last_name: $scope.data.last_name,
+    user_id: $scope.data.user_id,
+    address: $scope.data.address,
+    state: $scope.data.state,
+    city: $scope.data.city,
+    phone: $scope.data.phone,
+    aadhaar: $scope.data.aadhaar,
+    pan: $scope.data.pan,
+    license: $scope.data.license,
+    license_start: $scope.data.license_start,
+    license_expiry: $scope.data.license_expiry,
+    attachments: $scope.attachments
+  };
+
+  $scope.server.get(payload).then(function(response) {
+    alert("User registered successfully.");
+    $scope.data = {}; // clear form
+    $scope.attachments = {};
+  });
+};
+]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Customer On Boarding Form</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  if (!input) return;
+
+  var rec = new GlideRecord('x_1811084_diya_c_0_customer_profile');
+  rec.initialize();
+  rec.firstname = input.first_name;
+  rec.lastname = input.last_name;
+  rec.user_id = input.user_id;
+  rec.address = input.address;
+  rec.state = input.state;
+  rec.city = input.city;
+  rec.phone = input.phone;
+  rec.u_aadhaar = input.aadhaar;
+  rec.u_pan = input.pan;
+  rec.u_driving_license = input.license;
+  rec.u_start_date = input.license_start;
+  rec.u_expiry_date = input.license_expiry;
+  var recordSysId = rec.insert();
+
+  // Attach uploaded files to this record
+  if (input.attachments) {
+    var gsa = new GlideSysAttachment();
+    for (var key in input.attachments) {
+      var tempSysId = input.attachments[key];
+      gsa.copy('sys_attachment', tempSysId, 'x_1811084_diya_c_0_customer_profile', recordSysId);
+    }
+  }
+})();
+]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-06 11:35:23</sys_created_on>
+        <sys_id>a772104c83df62509ee8e270ceaad3db</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Customer On Boarding Form</sys_name>
+        <sys_package display_value="Diya_cars" source="x_1811084_diya_c_0">cabf58e0830322109ee8e270ceaad305</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Diya_cars">cabf58e0830322109ee8e270ceaad305</sys_scope>
+        <sys_update_name>sp_widget_a772104c83df62509ee8e270ceaad3db</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-06 12:07:54</sys_updated_on>
+        <template><![CDATA[<div>
+  <h2>User Registration Form</h2>
+
+  <form>
+    <label>First Name:</label><br>
+    <input type="text" ng-model="data.first_name" required><br><br>
+
+    <label>Last Name:</label><br>
+    <input type="text" ng-model="data.last_name" required><br><br>
+
+    <label>User ID:</label><br>
+    <input type="text" ng-model="data.user_id" required><br><br>
+
+    <label>Address:</label><br>
+    <textarea ng-model="data.address" required></textarea><br><br>
+
+    <label>State:</label><br>
+    <input type="text" ng-model="data.state" required><br><br>
+
+    <label>City:</label><br>
+    <input type="text" ng-model="data.city" required><br><br>
+
+    <label>Phone Number:</label><br>
+    <input type="tel" ng-model="data.phone" required><br><br>
+
+    <label>Aadhaar Number:</label><br>
+    <input type="text" ng-model="data.aadhaar" required><br><br>
+
+    <label>PAN Number:</label><br>
+    <input type="text" ng-model="data.pan" required><br><br>
+
+    <label>Driving License Number:</label><br>
+    <input type="text" ng-model="data.license" required><br><br>
+
+    <label>License Start Date:</label><br>
+    <input type="date" ng-model="data.license_start" required><br><br>
+
+    <label>License Expiry Date:</label><br>
+    <input type="date" ng-model="data.license_expiry" required><br><br>
+
+    <label>Upload Aadhaar:</label><br>
+    <input type="file" onchange="angular.element(this).scope().uploadFile(this.files[0], 'aadhaar')" required><br><br>
+
+    <label>Upload PAN:</label><br>
+    <input type="file" onchange="angular.element(this).scope().uploadFile(this.files[0], 'pan')" required><br><br>
+
+    <label>Upload Driving License:</label><br>
+    <input type="file" onchange="angular.element(this).scope().uploadFile(this.files[0], 'license')" required><br><br>
+
+    <button class="btn btn-primary" ng-click="submit()">Submit</button>
+  </form>
+</div>
+]]></template>
+    </sp_widget>
+</record_update>

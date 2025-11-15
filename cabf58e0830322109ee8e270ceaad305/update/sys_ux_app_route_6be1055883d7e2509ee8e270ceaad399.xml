@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="customer dashboard">7a70015883d7e2509ee8e270ceaad397</app_config>
+        <description/>
+        <extension_point/>
+        <fields>table</fields>
+        <icon/>
+        <interoperable>false</interoperable>
+        <name>customer status</name>
+        <optional_parameters>sysid</optional_parameters>
+        <order>0</order>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>customer-status</route_type>
+        <screen_type display_value="customer status">a7e1055883d7e2509ee8e270ceaad396</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>samba</sys_created_by>
+        <sys_created_on>2025-08-07 09:40:35</sys_created_on>
+        <sys_id>6be1055883d7e2509ee8e270ceaad399</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>customer status</sys_name>
+        <sys_package display_value="Diya_cars" source="x_1811084_diya_c_0">cabf58e0830322109ee8e270ceaad305</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Diya_cars">cabf58e0830322109ee8e270ceaad305</sys_scope>
+        <sys_update_name>sys_ux_app_route_6be1055883d7e2509ee8e270ceaad399</sys_update_name>
+        <sys_updated_by>samba</sys_updated_by>
+        <sys_updated_on>2025-08-07 09:40:35</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=6be1055883d7e2509ee8e270ceaad399"/>
+</record_update>

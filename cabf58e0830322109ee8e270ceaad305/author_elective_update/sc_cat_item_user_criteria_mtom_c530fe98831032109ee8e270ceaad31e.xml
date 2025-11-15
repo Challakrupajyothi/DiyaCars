@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="DELETE">
+        <sc_cat_item display_value="Request to Changes">d44c799a834b6a109ee8e270ceaad305</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-26 10:45:10</sys_created_on>
+        <sys_id>c530fe98831032109ee8e270ceaad31e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request to Changes.SNC External</sys_name>
+        <sys_package display_value="Diya_cars" source="x_1811084_diya_c_0">cabf58e0830322109ee8e270ceaad305</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Diya_cars">cabf58e0830322109ee8e270ceaad305</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_c530fe98831032109ee8e270ceaad31e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-26 10:45:10</sys_updated_on>
+        <user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Diya_cars">cabf58e0830322109ee8e270ceaad305</application>
+        <file_path/>
+        <instance_id>5e129a9f1b5e7950699443f4bd4bcb7a</instance_id>
+        <instance_name>dev209878</instance_name>
+        <name>sc_cat_item_user_criteria_mtom_c530fe98831032109ee8e270ceaad31e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom"><sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="Request to Changes">d44c799a834b6a109ee8e270ceaad305</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-26 10:45:10</sys_created_on><sys_id>c530fe98831032109ee8e270ceaad31e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Request to Changes.SNC External</sys_name><sys_package display_value="Diya_cars" source="x_1811084_diya_c_0">cabf58e0830322109ee8e270ceaad305</sys_package><sys_policy/><sys_scope display_value="Diya_cars">cabf58e0830322109ee8e270ceaad305</sys_scope><sys_update_name>sc_cat_item_user_criteria_mtom_c530fe98831032109ee8e270ceaad31e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-26 10:45:10</sys_updated_on><user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria></sc_cat_item_user_criteria_mtom></record_update>]]></payload>
+        <payload_hash>401768759</payload_hash>
+        <record_name>Request to Changes.SNC External</record_name>
+        <reverted_from/>
+        <source>46bf58e0830322109ee8e270ceaad30a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-26 10:45:10</sys_created_on>
+        <sys_id>c930fe98831032109ee8e270ceaad321</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19985a077eb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-26 10:45:10</sys_updated_on>
+        <type>Catalog Item Available for</type>
+        <update_guid>cd30fe987e103210755ed3a561f0f720</update_guid>
+        <update_guid_history>cd30fe987e103210755ed3a561f0f720:401768759</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Request to Changes.SNC External">80917ee8835472109ee8e270ceaad3aa</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-27 05:29:35</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_mtom">sc_cat_item_user_criteria_mtom</sys_db_object>
+        <sys_id>17102666f3a948089ef8cd21569c0f44</sys_id>
+        <sys_metadata>c530fe98831032109ee8e270ceaad31e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request to Changes.SNC External</sys_name>
+        <sys_package display_value="Diya_cars" source="x_1811084_diya_c_0">cabf58e0830322109ee8e270ceaad305</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Diya_cars">cabf58e0830322109ee8e270ceaad305</sys_scope>
+        <sys_scope_delete display_value="">7480798a01b84f3fb1f777bf20f6c7f9</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_c530fe98831032109ee8e270ceaad31e</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_mtom_c530fe98831032109ee8e270ceaad31e">c930fe98831032109ee8e270ceaad321</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-27 05:29:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="cf98be5d834b26109ee8e270ceaad376" label="cars" max_length="40" name="x_1811084_diya_c_0_car" type="collection">
+        <element label="Displacement" max_length="20" name="displacement" type="decimal"/>
+        <element label="City MPG" max_length="20" name="city_mpg" type="decimal"/>
+        <element label="Fuel Tank Capacity" max_length="20" name="fuel_tank_capacity" type="decimal"/>
+        <element label="Price" max_length="20" name="price" type="decimal"/>
+        <element label="Engine" max_length="40" name="engine" type="string"/>
+        <element label="Horsepower" max_length="40" name="horsepower" type="integer"/>
+        <element label="Length" max_length="20" name="length" type="decimal"/>
+        <element label="Torque" max_length="40" name="torque" type="integer"/>
+        <element label="Highway MPG" max_length="20" name="highway_mpg" type="decimal"/>
+        <element label="Transmission" max_length="40" name="transmission" type="string"/>
+        <element label="Top Speed" max_length="40" name="top_speed" type="integer"/>
+        <element label="Model" max_length="40" name="model" type="string"/>
+        <element label="Fuel Type" max_length="40" name="fuel_type" type="string"/>
+        <element label="Body" max_length="40" name="body" type="string"/>
+        <element label="Year" max_length="40" name="year" type="integer"/>
+        <element display="true" label="Make" max_length="40" name="make" type="string"/>
+        <element label="Width" max_length="20" name="width" type="decimal"/>
+        <element label="0-60mph" max_length="20" name="u_0_60mph" type="decimal"/>
+    </element>
+</database>

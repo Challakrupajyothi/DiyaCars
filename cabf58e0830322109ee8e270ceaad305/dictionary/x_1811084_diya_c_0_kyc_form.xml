@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="7dcaaca0834322109ee8e270ceaad30d" label="KYC Form" max_length="40" name="x_1811084_diya_c_0_kyc_form" type="collection">
+        <element label="City" max_length="40" name="city" reference="x_1811084_diya_c_0_dist_code" type="reference"/>
+        <element label="Driving License Number" mandatory="true" max_length="13" name="driving_license" type="string"/>
+        <element choice="3" default="pending" label="checking status" max_length="40" name="checking_status" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Rejected" value="Rejected"/>
+                <element inactive_on_update="false" label="Pending" value="Pending"/>
+                <element inactive_on_update="false" label="Approved" value="Approved"/>
+            </choice>
+        </element>
+        <element label="Aadhar Virtual ID" mandatory="true" max_length="16" name="aadhar_virtual_id" type="integer"/>
+        <element label="Father Name" max_length="40" name="father_name" type="string"/>
+        <element choice="3" label="Status" max_length="40" name="status" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Approved" value="Approved"/>
+                <element inactive_on_update="false" label="Pending" value="Pending"/>
+                <element inactive_on_update="false" label="Rejected" value="Rejected"/>
+            </choice>
+        </element>
+        <element label="Aadhar Number" mandatory="true" max_length="12" name="aadhar_number" type="string"/>
+        <element label="Address 1" max_length="200" name="address_l1" type="string"/>
+        <element label="DL Issued Date" mandatory="true" max_length="40" name="dl_issued_date" type="glide_date"/>
+        <element label="Customer Number" max_length="40" name="customer_number" type="string"/>
+        <element label="DOB" max_length="40" name="dob" type="glide_date"/>
+        <element label="License category" mandatory="true" max_length="40" name="licensed_categories" type="string"/>
+        <element label="PAN Attachment" mandatory="true" max_length="40" name="pan_attachment" type="file_attachment"/>
+        <element label="Last Name" max_length="40" name="last_name" type="string"/>
+        <element choice="1" label="State" max_length="40" name="state" reference="x_1811084_diya_c_0_statecode" type="reference">
+            <choice>
+                <element inactive_on_update="false" label="Chhattisgarh" sequence="5" value="Chhattisgarh"/>
+                <element inactive_on_update="false" label="Karnataka" sequence="11" value="Karnataka"/>
+                <element inactive_on_update="false" label="Bihar" sequence="4" value="Bihar"/>
+                <element inactive_on_update="false" label="Madhya Pradesh" sequence="13" value="Madhya Pradesh"/>
+                <element inactive_on_update="false" label="Arunachal Pradesh" sequence="1" value="Arunachal Pradesh"/>
+                <element inactive_on_update="false" label="Himachal Pradesh" sequence="9" value="Himachal Pradesh"/>
+                <element inactive_on_update="false" label="Tripura" sequence="25" value="Tripura"/>
+                <element inactive_on_update="false" label="Manipur" sequence="15" value="Manipur"/>
+                <element inactive_on_update="false" label="Haryana" sequence="8" value="Haryana"/>
+                <element inactive_on_update="false" label="Mizoram" sequence="17" value="Mizoram"/>
+                <element inactive_on_update="false" label="Meghalaya" sequence="16" value="Meghalaya"/>
+                <element inactive_on_update="false" label="Rajasthan" sequence="21" value="Rajasthan"/>
+                <element inactive_on_update="false" label="Jharkhand" sequence="10" value="Jharkhand"/>
+                <element inactive_on_update="false" label="West Bengal" sequence="28" value="West Bengal"/>
+                <element inactive_on_update="false" label="Maharashtra" sequence="14" value="Maharashtra"/>
+                <element inactive_on_update="false" label="Telangana" sequence="24" value="Telangana"/>
+                <element inactive_on_update="false" label="Uttarakhand" sequence="27" value="Uttarakhand"/>
+                <element inactive_on_update="false" label="Andhra Pradesh" sequence="2" value="Andhra Pradesh"/>
+                <element inactive_on_update="false" label="Nagaland" sequence="18" value="Nagaland"/>
+                <element inactive_on_update="false" label="Goa" sequence="6" value="Goa"/>
+                <element inactive_on_update="false" label="Assam" sequence="3" value="Assam"/>
+                <element inactive_on_update="false" label="Gujarat" sequence="7" value="Gujarat"/>
+                <element inactive_on_update="false" label="Tamil Nadu" sequence="23" value="Tamil Nadu"/>
+                <element inactive_on_update="false" label="Uttar Pradesh" sequence="26" value="Uttar Pradesh"/>
+                <element inactive_on_update="false" label="Punjab" sequence="20" value="Punjab"/>
+                <element inactive_on_update="false" label="Kerala" sequence="12" value="Kerala"/>
+                <element inactive_on_update="false" label="Odisha" sequence="19" value="Odisha"/>
+                <element inactive_on_update="false" label="Sikkim" sequence="22" value="Sikkim"/>
+            </choice>
+        </element>
+        <element label="Frist Name" max_length="40" name="frist_name" type="string"/>
+        <element label="License Attachment" mandatory="true" max_length="40" name="license_attachment" type="file_attachment"/>
+        <element label="PAN Number" mandatory="true" max_length="10" name="pan_number" type="string"/>
+        <element label="Aadhar Attachment" mandatory="true" max_length="40" name="aadhar_attachment" type="file_attachment"/>
+        <element label="DL Expiry Date" mandatory="true" max_length="40" name="dl_expiry_date" type="glide_date"/>
+        <element choice="1" label="Gender" max_length="40" name="gender" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Male" sequence="1" value="Male"/>
+                <element inactive_on_update="false" label="Others" sequence="3" value="Others"/>
+                <element inactive_on_update="false" label="Female" sequence="2" value="Female"/>
+            </choice>
+        </element>
+        <element label="Pincode" max_length="6" name="pincode" type="string"/>
+        <element label="Address 3" max_length="200" name="address_l3" type="string"/>
+        <element label="Address 2" max_length="200" name="address_l2" type="string"/>
+    </element>
+</database>

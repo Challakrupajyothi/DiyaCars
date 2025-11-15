@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="Advanced Dashboards">02dc36706f01011089060168e25b3691</app_config>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <disable_interoperable>false</disable_interoperable>
+        <event_mappings/>
+        <macroponent display_value="profile status summary default">c426b15e830b6a109ee8e270ceaad3a7</macroponent>
+        <macroponent_config>{}</macroponent_config>
+        <name>profile status summary default</name>
+        <order>0</order>
+        <parent_macroponent display_value="UXR Base Experience Shell - Advanced">47bcb58553030110aab9ddeeff7b12c2</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="profile status summary">0c26b15e830b6a109ee8e270ceaad37e</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>samba</sys_created_by>
+        <sys_created_on>2025-08-01 08:20:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c826b15e830b6a109ee8e270ceaad3ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>profile status summary default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Diya_cars" source="x_1811084_diya_c_0">cabf58e0830322109ee8e270ceaad305</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Diya_cars">cabf58e0830322109ee8e270ceaad305</sys_scope>
+        <sys_update_name>sys_ux_screen_c826b15e830b6a109ee8e270ceaad3ab</sys_update_name>
+        <sys_updated_by>samba</sys_updated_by>
+        <sys_updated_on>2025-08-01 08:20:47</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=c826b15e830b6a109ee8e270ceaad3ab"/>
+</record_update>
